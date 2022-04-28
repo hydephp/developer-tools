@@ -1791,6 +1791,26 @@ Search.appendIndex(
             "summary": "The\u0020page\u0020builder\u0020instance.",
             "url": "classes/Hyde-Framework-Services-RebuildService.html#property_builder"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\StarterFileService",
+            "name": "StarterFileService",
+            "summary": "Manage\u0020the\u0020content\u0020files\u0020that\u0020should\u0020be\u0020included\u0020in\u0020Hyde\/Hyde\u0020installations.",
+            "url": "classes/Hyde-Framework-Services-StarterFileService.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\StarterFileService\u003A\u003Apublish\u0028\u0029",
+            "name": "publish",
+            "summary": "Publish\u0020all\u0020the\u0020starter\u0020files.",
+            "url": "classes/Hyde-Framework-Services-StarterFileService.html#method_publish"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\StarterFileService\u003A\u003ApublishFile\u0028\u0029",
+            "name": "publishFile",
+            "summary": "Publish\u0020a\u0020single\u0020starter\u0020file.",
+            "url": "classes/Hyde-Framework-Services-StarterFileService.html#method_publishFile"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\StarterFileService\u003A\u003A\u0024files",
+            "name": "files",
+            "summary": "Mapping\u0020of\u0020the\u0020source\u0020file\u0020to\u0020the\u0020destination\u0020file.",
+            "url": "classes/Hyde-Framework-Services-StarterFileService.html#property_files"
+        },                {
             "fqsen": "\\Hyde\\Framework\\StaticPageBuilder",
             "name": "StaticPageBuilder",
             "summary": "Converts\u0020a\u0020Page\u0020Model\u0020into\u0020a\u0020static\u0020HTML\u0020page.",
