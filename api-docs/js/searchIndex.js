@@ -228,7 +228,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\PublishesHomepageView",
             "name": "PublishesHomepageView",
-            "summary": "",
+            "summary": "Publish\u0020one\u0020of\u0020the\u0020Hyde\u0020homepages.",
             "url": "classes/Hyde-Framework-Actions-PublishesHomepageView.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\PublishesHomepageView\u003A\u003A__construct\u0028\u0029",
@@ -396,26 +396,6 @@ Search.appendIndex(
             "summary": "The\u0020description\u0020of\u0020the\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeMakePostCommand.html#property_description"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishConfigsCommand",
-            "name": "HydePublishConfigsCommand",
-            "summary": "Publish\u0020the\u0020Hyde\u0020Config\u0020Files.",
-            "url": "classes/Hyde-Framework-Commands-HydePublishConfigsCommand.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishConfigsCommand\u003A\u003Ahandle\u0028\u0029",
-            "name": "handle",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Commands-HydePublishConfigsCommand.html#method_handle"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishConfigsCommand\u003A\u003A\u0024signature",
-            "name": "signature",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Commands-HydePublishConfigsCommand.html#property_signature"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishConfigsCommand\u003A\u003A\u0024description",
-            "name": "description",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Commands-HydePublishConfigsCommand.html#property_description"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishHomepageCommand",
             "name": "HydePublishHomepageCommand",
             "summary": "Publish\u0020one\u0020of\u0020the\u0020default\u0020homepages.",
@@ -581,6 +561,26 @@ Search.appendIndex(
             "summary": "The\u0020description\u0020of\u0020the\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeServeCommand.html#property_description"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand",
+            "name": "HydeUpdateConfigsCommand",
+            "summary": "Publish\u0020the\u0020Hyde\u0020Config\u0020Files.",
+            "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#property_signature"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#property_description"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeValidateCommand",
             "name": "HydeValidateCommand",
             "summary": "Runs\u0020the\u0020validation\u0020tests.",
@@ -601,15 +601,15 @@ Search.appendIndex(
             "summary": "The\u0020description\u0020of\u0020the\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeValidateCommand.html#property_description"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\Traits\\AsksToRebuildSite",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Commands\\AsksToRebuildSite",
             "name": "AsksToRebuildSite",
             "summary": "",
-            "url": "classes/Hyde-Framework-Commands-Traits-AsksToRebuildSite.html"
+            "url": "classes/Hyde-Framework-Concerns-Commands-AsksToRebuildSite.html"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\Traits\\AsksToRebuildSite\u003A\u003AaskToRebuildSite\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Commands\\AsksToRebuildSite\u003A\u003AaskToRebuildSite\u0028\u0029",
             "name": "askToRebuildSite",
             "summary": "",
-            "url": "classes/Hyde-Framework-Commands-Traits-AsksToRebuildSite.html#method_askToRebuildSite"
+            "url": "classes/Hyde-Framework-Concerns-Commands-AsksToRebuildSite.html#method_askToRebuildSite"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasAuthor",
             "name": "HasAuthor",
@@ -1088,7 +1088,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Hyde",
             "name": "Hyde",
-            "summary": "General\u0020interface\u0020for\u0020Hyde\u0020services.",
+            "summary": "General\u0020facade\u0020for\u0020Hyde\u0020services.",
             "url": "classes/Hyde-Framework-Hyde.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003Aversion\u0028\u0029",
@@ -1108,7 +1108,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\HydeServiceProvider",
             "name": "HydeServiceProvider",
-            "summary": "",
+            "summary": "Register\u0020and\u0020bootstrap\u0020Hyde\u0020application\u0020services.",
             "url": "classes/Hyde-Framework-HydeServiceProvider.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\HydeServiceProvider\u003A\u003Aregister\u0028\u0029",
@@ -1876,10 +1876,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/hyde-framework-commands.html"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\Traits",
-            "name": "Traits",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Commands",
+            "name": "Commands",
             "summary": "",
-            "url": "namespaces/hyde-framework-commands-traits.html"
+            "url": "namespaces/hyde-framework-concerns-commands.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns",
             "name": "Concerns",

@@ -91,14 +91,15 @@
                     <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde.html">Hyde</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde-framework.html">Framework</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde-framework-commands.html">Commands</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    HydeServiceProvider
+    HydeUpdateConfigsCommand
 
         <span class="phpdocumentor-element__extends">
-        extends <abbr title="\Illuminate\Support\ServiceProvider">ServiceProvider</abbr>
+        extends <abbr title="\LaravelZero\Framework\Commands\Command">Command</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -112,16 +113,30 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/HydeServiceProvider.php"><a href="files/framework-src-hydeserviceprovider.html"><abbr title="framework/src/HydeServiceProvider.php">HydeServiceProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeUpdateConfigsCommand.php"><a href="files/framework-src-commands-hydeupdateconfigscommand.html"><abbr title="framework/src/Commands/HydeUpdateConfigsCommand.php">HydeUpdateConfigsCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Register and bootstrap Hyde application services.</p>
+            <p class="phpdocumentor-summary">Publish the Hyde Config Files.</p>
 
 
 
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">uses</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Hyde\Framework\Commands\HydeBasePublishingCommand">HydeBasePublishingCommand</abbr></span>
+                                        
+                                             
+                                    </dd>
+                        </dl>
 
 
 
@@ -134,19 +149,26 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-HydeServiceProvider.html#method_boot">boot()</a>
+                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#property_description">$description</a>
     <span>
-                                &nbsp;: void    </span>
+                        &nbsp;: mixed            </span>
 </dt>
-<dd>Bootstrap any application services.</dd>
+<dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-HydeServiceProvider.html#method_register">register()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#property_signature">$signature</a>
     <span>
-                                &nbsp;: void    </span>
+                        &nbsp;: mixed            </span>
 </dt>
-<dd>Register any application services.</dd>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#method_handle">handle()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd></dd>
 
         </dl>
 
@@ -155,11 +177,85 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_description">
+        $description
+        <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#property_description" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeUpdateConfigsCommand.php"><a href="files/framework-src-commands-hydeupdateconfigscommand.html"><abbr title="framework/src/Commands/HydeUpdateConfigsCommand.php">HydeUpdateConfigsCommand.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$description</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;Publish the default configuration files&#039;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_signature">
+        $signature
+        <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#property_signature" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeUpdateConfigsCommand.php"><a href="files/framework-src-commands-hydeupdateconfigscommand.html"><abbr title="framework/src/Commands/HydeUpdateConfigsCommand.php">HydeUpdateConfigsCommand.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$signature</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;update:configs&#039;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Hyde-Framework-HydeServiceProvider.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -167,62 +263,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_boot">
-        boot()
-        <a href="classes/Hyde-Framework-HydeServiceProvider.html#method_boot" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_handle">
+        handle()
+        <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#method_handle" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/HydeServiceProvider.php"><a href="files/framework-src-hydeserviceprovider.html"><abbr title="framework/src/HydeServiceProvider.php">HydeServiceProvider.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">54</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Bootstrap any application services.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">boot</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_register">
-        register()
-        <a href="classes/Hyde-Framework-HydeServiceProvider.html#method_register" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/HydeServiceProvider.php"><a href="files/framework-src-hydeserviceprovider.html"><abbr title="framework/src/HydeServiceProvider.php">HydeServiceProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeUpdateConfigsCommand.php"><a href="files/framework-src-commands-hydeupdateconfigscommand.html"><abbr title="framework/src/Commands/HydeUpdateConfigsCommand.php">HydeUpdateConfigsCommand.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Register any application services.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">register</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">handle</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
+    <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
         
     
@@ -305,7 +368,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Hyde-Framework-HydeServiceProvider.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
