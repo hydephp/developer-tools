@@ -1711,6 +1711,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Services-MarkdownConverterService.html#method_runPostProcessing"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\MarkdownConverterService\u003A\u003AgetExtensions\u0028\u0029",
+            "name": "getExtensions",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-MarkdownConverterService.html#method_getExtensions"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\MarkdownConverterService\u003A\u003A\u0024markdown",
             "name": "markdown",
             "summary": "",
