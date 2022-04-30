@@ -513,7 +513,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AgetOutputPath\u0028\u0029",
             "name": "getOutputPath",
-            "summary": "Get\u0020the\u0020output\u0020path\u0020for\u0020the\u0020given\u0020path.",
+            "summary": "Get\u0020the\u0020output\u0020path\u0020for\u0020the\u0020given\u0020source\u0020file\u0020path.",
             "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_getOutputPath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024signature",
