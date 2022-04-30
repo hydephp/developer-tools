@@ -1513,7 +1513,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003A\u0024version",
             "name": "version",
-            "summary": "The\u0020HydeFront\u0020version\u0020to\u0020load.",
+            "summary": "The\u0020default\u0020HydeFront\u0020version\u0020to\u0020load.",
             "url": "classes/Hyde-Framework-Services-AssetService.html#property_version"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AtailwindPath\u0028\u0029",
