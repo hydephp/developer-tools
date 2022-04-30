@@ -526,11 +526,6 @@ Search.appendIndex(
             "summary": "The\u0020description\u0020of\u0020the\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_description"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024service",
-            "name": "service",
-            "summary": "The\u0020Service\u0020Class.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_service"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024path",
             "name": "path",
             "summary": "The\u0020source\u0020path.",
