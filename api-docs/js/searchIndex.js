@@ -443,7 +443,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishViewsCommand",
             "name": "HydePublishViewsCommand",
-            "summary": "",
+            "summary": "Publish\u0020the\u0020Hyde\u0020Blade\u0020views.",
             "url": "classes/Hyde-Framework-Commands-HydePublishViewsCommand.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydePublishViewsCommand\u003A\u003Ahandle\u0028\u0029",
@@ -603,7 +603,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Commands\\AsksToRebuildSite",
             "name": "AsksToRebuildSite",
-            "summary": "",
+            "summary": "Used\u0020in\u0020Commands\u0020to\u0020ask\u0020the\u0020user\u0020if\u0020they\u0020want\u0020to\u0020rebuild\u0020the\u0020site,\u0020and\u0020if\u0020so,\u0020rebuild\u0020it.",
             "url": "classes/Hyde-Framework-Concerns-Commands-AsksToRebuildSite.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Commands\\AsksToRebuildSite\u003A\u003AaskToRebuildSite\u0028\u0029",
@@ -613,7 +613,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasAuthor",
             "name": "HasAuthor",
-            "summary": "Trait\u0020HasAuthor.",
+            "summary": "Handle\u0020logic\u0020for\u0020Page\u0020models\u0020that\u0020have\u0020an\u0020Author.",
             "url": "classes/Hyde-Framework-Concerns-HasAuthor.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasAuthor\u003A\u003AconstructAuthor\u0028\u0029",
@@ -638,7 +638,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasDateString",
             "name": "HasDateString",
-            "summary": "",
+            "summary": "Create\u0020a\u0020DateString\u0020from\u0020a\u0020Page\u0020model\u0027s\u0020front\u0020matter.",
             "url": "classes/Hyde-Framework-Concerns-HasDateString.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasDateString\u003A\u003AconstructDateString\u0028\u0029",
@@ -653,7 +653,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasDynamicTitle",
             "name": "HasDynamicTitle",
-            "summary": "Find\u0020and\u0020return\u0020the\u0020title\u0020to\u0020use\u0020for\u0020a\u0020Markdown\u0020Document.",
+            "summary": "Find\u0020and\u0020get\u0020the\u0020title\u0020to\u0020use\u0020for\u0020a\u0020Markdown\u0020Document.",
             "url": "classes/Hyde-Framework-Concerns-HasDynamicTitle.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasDynamicTitle\u003A\u003AfindTitleForDocument\u0028\u0029",
@@ -668,7 +668,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasFeaturedImage",
             "name": "HasFeaturedImage",
-            "summary": "",
+            "summary": "Handle\u0020logic\u0020for\u0020Page\u0020models\u0020that\u0020have\u0020a\u0020Featured\u0020Image.",
             "url": "classes/Hyde-Framework-Concerns-HasFeaturedImage.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasFeaturedImage\u003A\u003AconstructFeaturedImage\u0028\u0029",
@@ -693,7 +693,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata",
             "name": "HasMetadata",
-            "summary": "",
+            "summary": "Handle\u0020logic\u0020for\u0020Page\u0020models\u0020that\u0020have\u0020Metadata.",
             "url": "classes/Hyde-Framework-Concerns-HasMetadata.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AconstructMetadata\u0028\u0029",
@@ -733,7 +733,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents",
             "name": "HasTableOfContents",
-            "summary": "Trait\u0020HasTableOfContents.",
+            "summary": "Generate\u0020a\u0020Table\u0020of\u0020Contents\u0020HTML\u0020string\u0020from\u0020a\u0020Markdown\u0020document\u0020body.",
             "url": "classes/Hyde-Framework-Concerns-HasTableOfContents.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents\u003A\u003AconstructTableOfContents\u0028\u0029",
@@ -748,7 +748,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\AssetManager",
             "name": "AssetManager",
-            "summary": "AssetManager\u0020for\u0020the\u0020Hyde\u0020Facade.",
+            "summary": "Offloads\u0020asset\u0020related\u0020methods\u0020for\u0020the\u0020Hyde\u0020Facade.",
             "url": "classes/Hyde-Framework-Concerns-Internal-AssetManager.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\AssetManager\u003A\u003Atailwind\u0028\u0029",
@@ -768,7 +768,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers",
             "name": "FileHelpers",
-            "summary": "General\u0020file\u0020helpers\u0020intended\u0020to\u0020be\u0020used\u0020through\u0020the\u0020Hyde\u0020Facade.",
+            "summary": "Offloads\u0020file\u0020helper\u0020methods\u0020for\u0020the\u0020Hyde\u0020Facade.",
             "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003AdocsDirectory\u0028\u0029",
@@ -863,7 +863,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Markdown\\HasTorchlightIntegration",
             "name": "HasTorchlightIntegration",
-            "summary": "",
+            "summary": "Helper\u0020methods\u0020for\u0020the\u0020Torchlight\u0020integration.",
             "url": "classes/Hyde-Framework-Concerns-Markdown-HasTorchlightIntegration.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Markdown\\HasTorchlightIntegration\u003A\u003AdetermineIfTorchlightAttributionShouldBeInjected\u0028\u0029",
@@ -888,7 +888,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\ValidatesExistence",
             "name": "ValidatesExistence",
-            "summary": "",
+            "summary": "Validate\u0020the\u0020existance\u0020of\u0020a\u0020Page\u0020model\u0027s\u0020source\u0020file.",
             "url": "classes/Hyde-Framework-Concerns-ValidatesExistence.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\ValidatesExistence\u003A\u003AvalidateExistence\u0028\u0029",
