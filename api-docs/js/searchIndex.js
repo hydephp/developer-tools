@@ -713,17 +713,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AmakeMetadata\u0028\u0029",
             "name": "makeMetadata",
-            "summary": "",
+            "summary": "Generate\u0020metadata\u0020from\u0020the\u0020front\u0020matter\u0020that\u0020can\u0020be\u0020used\u0020in\u0020standard\u0020\u003Cmeta\u003E\u0020tags.",
             "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetadata"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AmakeMetaProperties\u0028\u0029",
             "name": "makeMetaProperties",
-            "summary": "",
+            "summary": "Generate\u0020metadata\u0020from\u0020the\u0020front\u0020matter\u0020that\u0020can\u0020be\u0020used\u0020for\u0020og\u003Atype\u0020\u003Cmeta\u003E\u0020tags.",
             "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetaProperties"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AgetAuthor\u0028\u0029",
             "name": "getAuthor",
-            "summary": "",
+            "summary": "Parse\u0020the\u0020author\u0020string\u0020from\u0020the\u0020front\u0020matter\u0020with\u0020support\u0020for\u0020both\u0020flat\u0020and\u0020array\u0020notation.",
             "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_getAuthor"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003A\u0024metadata",
