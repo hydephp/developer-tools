@@ -1028,57 +1028,67 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003Aenabled\u0028\u0029",
             "name": "enabled",
-            "summary": "Determine\u0020if\u0020the\u0020given\u0020feature\u0020is\u0020enabled.",
+            "summary": "Determine\u0020if\u0020the\u0020given\u0020specified\u0020is\u0020enabled.",
             "url": "classes/Hyde-Framework-Features.html#method_enabled"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasBlogPosts\u0028\u0029",
             "name": "hasBlogPosts",
-            "summary": "Determine\u0020if\u0020the\u0020site\u0020has\u0020blog\u0020posts\u0020enabled.",
+            "summary": "\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\nDetermine\u0020if\u0020a\u0020given\u0020feature\u0020is\u0020enabled.",
             "url": "classes/Hyde-Framework-Features.html#method_hasBlogPosts"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasBladePages\u0028\u0029",
             "name": "hasBladePages",
-            "summary": "Determine\u0020if\u0020the\u0020site\u0020has\u0020custom\u0020Blade\u0020pages\u0020enabled.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_hasBladePages"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasMarkdownPages\u0028\u0029",
             "name": "hasMarkdownPages",
-            "summary": "Determine\u0020if\u0020the\u0020site\u0020has\u0020custom\u0020Markdown\u0020pages\u0020enabled.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_hasMarkdownPages"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasDocumentationPages\u0028\u0029",
             "name": "hasDocumentationPages",
-            "summary": "Determine\u0020if\u0020the\u0020site\u0020has\u0020Laradocgen\u0020enabled.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_hasDocumentationPages"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasDarkmode\u0028\u0029",
+            "name": "hasDarkmode",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Features.html#method_hasDarkmode"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasTorchlight\u0028\u0029",
             "name": "hasTorchlight",
-            "summary": "Determine\u0020if\u0020the\u0020site\u0020has\u0020Torchlight\u0020enabled.",
+            "summary": "Torchlight\u0020is\u0020by\u0020default\u0020enabled\u0020automatically\u0020when\u0020an\u0020API\u0020token\nis\u0020set\u0020in\u0020the\u0020.env\u0020file\u0020but\u0020is\u0020disabled\u0020when\u0020running\u0020tests.",
             "url": "classes/Hyde-Framework-Features.html#method_hasTorchlight"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AblogPosts\u0028\u0029",
             "name": "blogPosts",
-            "summary": "Enable\u0020the\u0020blog\u0020post\u0020feature.",
+            "summary": "\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\nEnable\u0020a\u0020given\u0020feature\u0020to\u0020be\u0020used\u0020in\u0020the\u0020config.",
             "url": "classes/Hyde-Framework-Features.html#method_blogPosts"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AbladePages\u0028\u0029",
             "name": "bladePages",
-            "summary": "Enable\u0020the\u0020Blade\u0020page\u0020feature.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_bladePages"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AmarkdownPages\u0028\u0029",
             "name": "markdownPages",
-            "summary": "Enable\u0020the\u0020Markdown\u0020page\u0020feature.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_markdownPages"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AdocumentationPages\u0028\u0029",
             "name": "documentationPages",
-            "summary": "Enable\u0020the\u0020documentation\u0020page\u0020feature.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_documentationPages"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003Adarkmode\u0028\u0029",
+            "name": "darkmode",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Features.html#method_darkmode"
         },                {
             "fqsen": "\\Hyde\\Framework\\Features\u003A\u003Atorchlight\u0028\u0029",
             "name": "torchlight",
-            "summary": "Enable\u0020the\u0020Torchlight\u0020integration.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Features.html#method_torchlight"
         },                {
             "fqsen": "\\Hyde\\Framework\\Hyde",
@@ -1100,6 +1110,11 @@ Search.appendIndex(
             "name": "getLatestPosts",
             "summary": "",
             "url": "classes/Hyde-Framework-Hyde.html#method_getLatestPosts"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003Afeatures\u0028\u0029",
+            "name": "features",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Hyde.html#method_features"
         },                {
             "fqsen": "\\Hyde\\Framework\\HydeServiceProvider",
             "name": "HydeServiceProvider",
