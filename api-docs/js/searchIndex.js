@@ -746,10 +746,10 @@ Search.appendIndex(
             "summary": "Offloads\u0020asset\u0020related\u0020methods\u0020for\u0020the\u0020Hyde\u0020Facade.",
             "url": "classes/Hyde-Framework-Concerns-Internal-AssetManager.html"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\AssetManager\u003A\u003Atailwind\u0028\u0029",
-            "name": "tailwind",
-            "summary": "Return\u0020the\u0020Tailwind\u0020CDN\u0020if\u0020enabled.",
-            "url": "classes/Hyde-Framework-Concerns-Internal-AssetManager.html#method_tailwind"
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\AssetManager\u003A\u003AassetManager\u0028\u0029",
+            "name": "assetManager",
+            "summary": "Get\u0020the\u0020asset\u0020service\u0020instance.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-AssetManager.html#method_assetManager"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\AssetManager\u003A\u003Astyles\u0028\u0029",
             "name": "styles",
@@ -788,8 +788,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003ArelativePath\u0028\u0029",
             "name": "relativePath",
-            "summary": "Inject\u0020the\u0020proper\u0020number\u0020of\u0020\u0060..\/\u0060\u0020before\u0020the\u0020links\u0020in\u0020Blade\u0020templates.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_relativePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003ArelativeLink\u0028\u0029",
+            "name": "relativeLink",
+            "summary": "Inject\u0020the\u0020proper\u0020number\u0020of\u0020\u0060..\/\u0060\u0020before\u0020the\u0020links\u0020in\u0020Blade\u0020templates.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_relativeLink"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003AuriPath\u0028\u0029",
             "name": "uriPath",
@@ -950,11 +955,6 @@ Search.appendIndex(
             "name": "version",
             "summary": "The\u0020HydeFront\u0020version\u0020to\u0020load.",
             "url": "classes/Hyde-Framework-Contracts-AssetServiceContract.html#method_version"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Contracts\\AssetServiceContract\u003A\u003AtailwindPath\u0028\u0029",
-            "name": "tailwindPath",
-            "summary": "Return\u0020the\u0020Tailwind\u0020CDN\u0020if\u0020enabled\u0020in\u0020the\u0020config,\u0020else\u0020false.",
-            "url": "classes/Hyde-Framework-Contracts-AssetServiceContract.html#method_tailwindPath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\AssetServiceContract\u003A\u003AstylePath\u0028\u0029",
             "name": "stylePath",
@@ -1511,11 +1511,6 @@ Search.appendIndex(
             "summary": "The\u0020default\u0020HydeFront\u0020version\u0020to\u0020load.",
             "url": "classes/Hyde-Framework-Services-AssetService.html#property_version"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AtailwindPath\u0028\u0029",
-            "name": "tailwindPath",
-            "summary": "Return\u0020the\u0020Tailwind\u0020CDN\u0020if\u0020enabled\u0020in\u0020the\u0020config,\u0020else\u0020false.",
-            "url": "classes/Hyde-Framework-Services-AssetService.html#method_tailwindPath"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AstylePath\u0028\u0029",
             "name": "stylePath",
             "summary": "Return\u0020the\u0020main\u0020Hyde\u0020stylesheet\u0020location\/path.",
@@ -1530,6 +1525,16 @@ Search.appendIndex(
             "name": "cdnPathConstructor",
             "summary": "Construct\u0020a\u0020URI\u0020path\u0020for\u0020the\u0020CDN\u0020using\u0020the\u0020static\u0020dist\u0020version.",
             "url": "classes/Hyde-Framework-Services-AssetService.html#method_cdnPathConstructor"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AconstructCdnPath\u0028\u0029",
+            "name": "constructCdnPath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-AssetService.html#method_constructCdnPath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AhasMediaFile\u0028\u0029",
+            "name": "hasMediaFile",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-AssetService.html#method_hasMediaFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AuthorService",
             "name": "AuthorService",
