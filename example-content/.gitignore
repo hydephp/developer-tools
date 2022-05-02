@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!_pages/**
+!_pages
+!_posts/**
+!_posts
+!_docs/**
+!_docs
