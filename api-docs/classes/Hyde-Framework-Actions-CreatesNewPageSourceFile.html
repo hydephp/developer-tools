@@ -200,7 +200,7 @@
     <span>
                                 &nbsp;: int|false    </span>
 </dt>
-<dd></dd>
+<dd>Create the Documentation file.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createMarkdownFile">createMarkdownFile()</a>
@@ -413,7 +413,7 @@
                  = <span class="phpdocumentor-signature__argument__default-value">MarkdownPage::class</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><ul>
-<li>The page type, either 'markdown' or 'blade'</li>
+<li>The page type, FQDN of the page class</li>
 </ul>
 </section>
 
@@ -424,7 +424,7 @@
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><ul>
-<li>Overwrite any existing files</li>
+<li>Overwrite any existing files?</li>
 </ul>
 </section>
 
@@ -443,7 +443,7 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
                                                             
-                                                 <section class="phpdocumentor-description"><p>if the page type is not 'markdown' or 'blade'</p>
+                                                 <section class="phpdocumentor-description"><p>if the page type is not supported or the file already exists</p>
 </section>
 
                                     </dd>
@@ -528,7 +528,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Actions/CreatesNewPageSourceFile.php"><a href="files/framework-src-actions-createsnewpagesourcefile.html"><abbr title="framework/src/Actions/CreatesNewPageSourceFile.php">CreatesNewPageSourceFile.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">109</span>
 
     </aside>
 
@@ -561,9 +561,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int|false</span>
             &mdash;
-            <section class="phpdocumentor-description"><p>the size of the file created, or false on failure.</p>
-</section>
-
+        
     
 </article>
                     <article
@@ -579,19 +577,35 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Actions/CreatesNewPageSourceFile.php"><a href="files/framework-src-actions-createsnewpagesourcefile.html"><abbr title="framework/src/Actions/CreatesNewPageSourceFile.php">CreatesNewPageSourceFile.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">138</span>
+    <span class="phpdocumentor-element-found-in__line">136</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Create the Documentation file.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">createDocumentationFile</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|false</span></code>
 
-        <section class="phpdocumentor-description"></section>
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>if the file cannot be saved.</p>
+</section>
 
-    
-    
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int|false</span>
@@ -612,7 +626,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Actions/CreatesNewPageSourceFile.php"><a href="files/framework-src-actions-createsnewpagesourcefile.html"><abbr title="framework/src/Actions/CreatesNewPageSourceFile.php">CreatesNewPageSourceFile.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -645,9 +659,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int|false</span>
             &mdash;
-            <section class="phpdocumentor-description"><p>the size of the file created, or false on failure.</p>
-</section>
-
+        
     
 </article>
                     <article
@@ -663,7 +675,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Actions/CreatesNewPageSourceFile.php"><a href="files/framework-src-actions-createsnewpagesourcefile.html"><abbr title="framework/src/Actions/CreatesNewPageSourceFile.php">CreatesNewPageSourceFile.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -681,9 +693,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>The page type, either 'markdown' or 'blade'</li>
-</ul>
+                    <section class="phpdocumentor-description"><p>FQDN of the page class</p>
 </section>
 
             </dd>
@@ -701,7 +711,7 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
                                                             
-                                                 <section class="phpdocumentor-description"><p>if the page type is not 'markdown' or 'blade'</p>
+                                                 <section class="phpdocumentor-description"><p>if the page type is not supported</p>
 </section>
 
                                     </dd>
@@ -710,9 +720,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int|false</span>
             &mdash;
-            <section class="phpdocumentor-description"><p>the size of the file created, or false on failure.</p>
-</section>
-
+        
     
 </article>
             </section>

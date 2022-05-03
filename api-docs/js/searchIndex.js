@@ -148,7 +148,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcreateDocumentationFile\u0028\u0029",
             "name": "createDocumentationFile",
-            "summary": "",
+            "summary": "Create\u0020the\u0020Documentation\u0020file.",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createDocumentationFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024title",
