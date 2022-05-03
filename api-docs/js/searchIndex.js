@@ -1,6 +1,36 @@
 Search.appendIndex(
     [
                 {
+            "fqsen": "\\Hyde\\Framework\\Actions\\ChecksIfConfigIsUpToDate",
+            "name": "ChecksIfConfigIsUpToDate",
+            "summary": "Checks\u0020if\u0020the\u0020installed\u0020config\u0020is\u0020up\u002Dto\u002Ddate\u0020with\u0020the\u0020Framework\u0027s\u0020config.",
+            "url": "classes/Hyde-Framework-Actions-ChecksIfConfigIsUpToDate.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\ChecksIfConfigIsUpToDate\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-ChecksIfConfigIsUpToDate.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\ChecksIfConfigIsUpToDate\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "Execute\u0020the\u0020action.",
+            "url": "classes/Hyde-Framework-Actions-ChecksIfConfigIsUpToDate.html#method_execute"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\ChecksIfConfigIsUpToDate\u003A\u003AfindOptions\u0028\u0029",
+            "name": "findOptions",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-ChecksIfConfigIsUpToDate.html#method_findOptions"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\ChecksIfConfigIsUpToDate\u003A\u003A\u0024hydeConfig",
+            "name": "hydeConfig",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-ChecksIfConfigIsUpToDate.html#property_hydeConfig"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\ChecksIfConfigIsUpToDate\u003A\u003A\u0024frameworkConfig",
+            "name": "frameworkConfig",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-ChecksIfConfigIsUpToDate.html#property_frameworkConfig"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\ConvertsArrayToFrontMatter",
             "name": "ConvertsArrayToFrontMatter",
             "summary": "Convert\u0020an\u0020array\u0020into\u0020YAML\u0020Front\u0020Matter.",
@@ -566,10 +596,20 @@ Search.appendIndex(
             "summary": "Publish\u0020the\u0020Hyde\u0020Config\u0020Files.",
             "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#method___construct"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003AcheckIfConfigIsOutOfDate\u0028\u0029",
+            "name": "checkIfConfigIsOutOfDate",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeUpdateConfigsCommand.html#method_checkIfConfigIsOutOfDate"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeUpdateConfigsCommand\u003A\u003A\u0024signature",
             "name": "signature",
