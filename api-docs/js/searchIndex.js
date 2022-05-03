@@ -1673,7 +1673,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\FileCacheService",
             "name": "FileCacheService",
-            "summary": "Helper\u0020methods\u0020to\u0020interact\u0020with\u0020the\u0020filecache.json\u0020file.",
+            "summary": "Helper\u0020methods\u0020to\u0020interact\u0020with\u0020the\u0020filecache.",
             "url": "classes/Hyde-Framework-Services-FileCacheService.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\FileCacheService\u003A\u003AgetFilecache\u0028\u0029",
