@@ -118,7 +118,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile",
             "name": "CreatesNewPageSourceFile",
-            "summary": "Scaffold\u0020a\u0020new\u0020Markdown\u0020or\u0020Blade\u0020page.",
+            "summary": "Scaffold\u0020a\u0020new\u0020Markdown,\u0020Blade,\u0020or\u0020documentation\u0020page.",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A__construct\u0028\u0029",
@@ -145,6 +145,11 @@ Search.appendIndex(
             "name": "createBladeFile",
             "summary": "Create\u0020the\u0020Blade\u0020file.",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createBladeFile"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcreateDocumentationFile\u0028\u0029",
+            "name": "createDocumentationFile",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createDocumentationFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024title",
             "name": "title",
