@@ -376,6 +376,61 @@ Search.appendIndex(
             "summary": "The\u0020description\u0020of\u0020the\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeDebugCommand.html#property_description"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand",
+            "name": "HydeInstallCommand",
+            "summary": "Initialize\u0020a\u0020new\u0020Hyde\u0020project.",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003ApromptForSiteName\u0028\u0029",
+            "name": "promptForSiteName",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_promptForSiteName"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003ApromptForSiteUrl\u0028\u0029",
+            "name": "promptForSiteUrl",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_promptForSiteUrl"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003ApromptForHomepage\u0028\u0029",
+            "name": "promptForHomepage",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_promptForHomepage"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003AupdateSiteName\u0028\u0029",
+            "name": "updateSiteName",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_updateSiteName"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003AupdateSiteUrl\u0028\u0029",
+            "name": "updateSiteUrl",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_updateSiteUrl"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#property_signature"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#property_description"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003A\u0024siteName",
+            "name": "siteName",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#property_siteName"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003A\u0024siteUrl",
+            "name": "siteUrl",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#property_siteUrl"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeMakePageCommand",
             "name": "HydeMakePageCommand",
             "summary": "Hyde\u0020Command\u0020to\u0020scaffold\u0020a\u0020new\u0020Markdown\u0020or\u0020Blade\u0020page\u0020file.",
