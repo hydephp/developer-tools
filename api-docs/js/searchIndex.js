@@ -381,6 +381,11 @@ Search.appendIndex(
             "summary": "Initialize\u0020a\u0020new\u0020Hyde\u0020project.",
             "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method___construct"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
@@ -410,6 +415,16 @@ Search.appendIndex(
             "name": "updateSiteUrl",
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_updateSiteUrl"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003AmarkInstalled\u0028\u0029",
+            "name": "markInstalled",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_markInstalled"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003AisInstalled\u0028\u0029",
+            "name": "isInstalled",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeInstallCommand.html#method_isInstalled"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeInstallCommand\u003A\u003A\u0024signature",
             "name": "signature",
