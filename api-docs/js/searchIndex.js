@@ -1086,10 +1086,10 @@ Search.appendIndex(
             "summary": "Return\u0020the\u0020main\u0020Hyde\u0020script\u0020location\/path.",
             "url": "classes/Hyde-Framework-Contracts-AssetServiceContract.html#method_scriptPath"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Contracts\\AssetServiceContract\u003A\u003AcdnPathConstructor\u0028\u0029",
-            "name": "cdnPathConstructor",
+            "fqsen": "\\Hyde\\Framework\\Contracts\\AssetServiceContract\u003A\u003AconstructCdnPath\u0028\u0029",
+            "name": "constructCdnPath",
             "summary": "Construct\u0020a\u0020URI\u0020path\u0020for\u0020the\u0020CDN\u0020using\u0020the\u0020static\u0020dist\u0020version.",
-            "url": "classes/Hyde-Framework-Contracts-AssetServiceContract.html#method_cdnPathConstructor"
+            "url": "classes/Hyde-Framework-Contracts-AssetServiceContract.html#method_constructCdnPath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\PageParserContract",
             "name": "PageParserContract",
@@ -1656,14 +1656,9 @@ Search.appendIndex(
             "summary": "Return\u0020the\u0020main\u0020Hyde\u0020script\u0020location\/path.",
             "url": "classes/Hyde-Framework-Services-AssetService.html#method_scriptPath"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AcdnPathConstructor\u0028\u0029",
-            "name": "cdnPathConstructor",
-            "summary": "Construct\u0020a\u0020URI\u0020path\u0020for\u0020the\u0020CDN\u0020using\u0020the\u0020static\u0020dist\u0020version.",
-            "url": "classes/Hyde-Framework-Services-AssetService.html#method_cdnPathConstructor"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AconstructCdnPath\u0028\u0029",
             "name": "constructCdnPath",
-            "summary": "",
+            "summary": "Construct\u0020a\u0020URI\u0020path\u0020for\u0020the\u0020CDN\u0020using\u0020the\u0020static\u0020dist\u0020version.",
             "url": "classes/Hyde-Framework-Services-AssetService.html#method_constructCdnPath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AssetService\u003A\u003AhasMediaFile\u0028\u0029",
