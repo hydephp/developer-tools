@@ -1091,6 +1091,46 @@ Search.appendIndex(
             "summary": "Construct\u0020a\u0020URI\u0020path\u0020for\u0020the\u0020CDN\u0020using\u0020the\u0020static\u0020dist\u0020version.",
             "url": "classes/Hyde-Framework-Contracts-AssetServiceContract.html#method_constructCdnPath"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarContract",
+            "name": "DocumentationSidebarContract",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarContract.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarContract\u003A\u003AaddItem\u0028\u0029",
+            "name": "addItem",
+            "summary": "Add\u0020a\u0020DocumentationSidebarItem\u0020to\u0020the\u0020sidebar\u0020collection.",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarContract.html#method_addItem"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarContract\u003A\u003AsortItems\u0028\u0029",
+            "name": "sortItems",
+            "summary": "Sort\u0020the\u0020items\u0020in\u0020the\u0020collection\u0020by\u0020their\u0020priority.",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarContract.html#method_sortItems"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarContract\u003A\u003AgetCollection\u0028\u0029",
+            "name": "getCollection",
+            "summary": "Get\u0020the\u0020collection\u0020instance.",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarContract.html#method_getCollection"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarServiceContract",
+            "name": "DocumentationSidebarServiceContract",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarServiceContract.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarServiceContract\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Generate\u0020and\u0020return\u0020a\u0020new\u0020DocumentationSidebar\u0020collection.",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarServiceContract.html#method_get"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarServiceContract\u003A\u003AcreateSidebar\u0028\u0029",
+            "name": "createSidebar",
+            "summary": "Parse\u0020the\u0020_docs\u0020directory\u0020for\u0020sidebar\u0020items\u0020to\u0020create\u0020a\u0020new\u0020collection.",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarServiceContract.html#method_createSidebar"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\DocumentationSidebarServiceContract\u003A\u003AgetSidebar\u0028\u0029",
+            "name": "getSidebar",
+            "summary": "Get\u0020the\u0020collection\u0020of\u0020sidebar\u0020items\u0020in\u0020the\u0020class.",
+            "url": "classes/Hyde-Framework-Contracts-DocumentationSidebarServiceContract.html#method_getSidebar"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\PageParserContract",
             "name": "PageParserContract",
             "summary": "",
@@ -1446,6 +1486,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Models-DocumentationPage.html#property_parserClass"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebar",
+            "name": "DocumentationSidebar",
+            "summary": "The\u0020documentation\u0020sidebar,\u0020containing\u0020all\u0020the\u0020sidebar\u0020items.",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebar.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebar\u003A\u003AaddItem\u0028\u0029",
+            "name": "addItem",
+            "summary": "Add\u0020a\u0020DocumentationSidebarItem\u0020to\u0020the\u0020sidebar\u0020collection.",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebar.html#method_addItem"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebar\u003A\u003AsortItems\u0028\u0029",
+            "name": "sortItems",
+            "summary": "Sort\u0020the\u0020items\u0020in\u0020the\u0020collection\u0020by\u0020their\u0020priority.",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebar.html#method_sortItems"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebar\u003A\u003AgetCollection\u0028\u0029",
+            "name": "getCollection",
+            "summary": "Get\u0020the\u0020collection\u0020instance.",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebar.html#method_getCollection"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem",
+            "name": "DocumentationSidebarItem",
+            "summary": "Object\u0020containing\u0020information\u0020for\u0020a\u0020sidebar\u0020item.",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003AfindPriorityInConfig\u0028\u0029",
+            "name": "findPriorityInConfig",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method_findPriorityInConfig"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003AparseFromFile\u0028\u0029",
+            "name": "parseFromFile",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method_parseFromFile"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A\u0024label",
+            "name": "label",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_label"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A\u0024destination",
+            "name": "destination",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_destination"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A\u0024priority",
+            "name": "priority",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_priority"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Image",
             "name": "Image",
             "summary": "Holds\u0020the\u0020information\u0020for\u0020an\u0020image.",
@@ -1780,6 +1875,46 @@ Search.appendIndex(
             "name": "getMediaAssetFiles",
             "summary": "Get\u0020all\u0020the\u0020Media\u0020asset\u0020file\u0020paths.",
             "url": "classes/Hyde-Framework-Services-CollectionService.html#method_getMediaAssetFiles"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService",
+            "name": "DocumentationSidebarService",
+            "summary": "Service\u0020class\u0020to\u0020create\u0020and\u0020manage\u0020the\u0020sidebar\u0020collection\u0020object.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Shorthand\u0020to\u0020create\u0020a\u0020new\u0020Sidebar\u0020object\u0020using\u0020default\u0020methods.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_get"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AcreateSidebar\u0028\u0029",
+            "name": "createSidebar",
+            "summary": "Parse\u0020the\u0020_docs\u0020directory\u0020for\u0020sidebar\u0020items\u0020to\u0020create\u0020a\u0020new\u0020collection.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_createSidebar"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AgetSidebar\u0028\u0029",
+            "name": "getSidebar",
+            "summary": "Get\u0020the\u0020sidebar\u0020object\u0020created\u0020and\u0020managed\u0020by\u0020the\u0020service\u0020instance.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSidebar"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AwithoutIndex\u0028\u0029",
+            "name": "withoutIndex",
+            "summary": "Remove\u0020the\u0020index\u0020page\u0020from\u0020the\u0020sidebar\u0020collection.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_withoutIndex"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AgetSidebarItems\u0028\u0029",
+            "name": "getSidebarItems",
+            "summary": "Get\u0020an\u0020array\u0020of\u0020source\u0020files\u0020to\u0020add\u0020to\u0020the\u0020sidebar.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSidebarItems"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AcreateSidebarItemFromSlug\u0028\u0029",
+            "name": "createSidebarItemFromSlug",
+            "summary": "Generate\u0020a\u0020SidebarItem\u0020object\u0020from\u0020a\u0020source\u0020file\u0020referenced\u0020by\u0020its\u0020slug.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_createSidebarItemFromSlug"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003A\u0024sidebar",
+            "name": "sidebar",
+            "summary": "The\u0020sidebar\u0020object\u0020created\u0020and\u0020managed\u0020by\u0020the\u0020service\u0020instance.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#property_sidebar"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\FileCacheService",
             "name": "FileCacheService",
