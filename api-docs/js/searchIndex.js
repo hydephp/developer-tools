@@ -171,16 +171,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#property_force"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSidebar",
-            "name": "GeneratesDocumentationSidebar",
-            "summary": "Create\u0020the\u0020sidebar\u0020items\u0020for\u0020the\u0020documentation\u0020page.",
-            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSidebar.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSidebar\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "Create\u0020and\u0020get\u0020the\u0020array.",
-            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSidebar.html#method_get"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesNavigationMenu",
             "name": "GeneratesNavigationMenu",
             "summary": "Generate\u0020the\u0020dynamic\u0020navigation\u0020menu.",
