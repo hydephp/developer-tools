@@ -1511,6 +1511,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method_findPriorityInConfig"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003AisHidden\u0028\u0029",
+            "name": "isHidden",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method_isHidden"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003AparseFromFile\u0028\u0029",
             "name": "parseFromFile",
             "summary": "",
@@ -1530,6 +1535,11 @@ Search.appendIndex(
             "name": "priority",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_priority"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A\u0024hidden",
+            "name": "hidden",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_hidden"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Image",
             "name": "Image",
@@ -1890,6 +1900,11 @@ Search.appendIndex(
             "name": "withoutIndex",
             "summary": "Remove\u0020the\u0020index\u0020page\u0020from\u0020the\u0020sidebar\u0020collection.",
             "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_withoutIndex"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AwithoutHidden\u0028\u0029",
+            "name": "withoutHidden",
+            "summary": "Remove\u0020hidden\u0020files\u0020from\u0020the\u0020sidebar\u0020collection.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_withoutHidden"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AgetSidebarItems\u0028\u0029",
             "name": "getSidebarItems",
