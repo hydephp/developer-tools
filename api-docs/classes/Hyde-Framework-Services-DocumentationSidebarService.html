@@ -110,12 +110,15 @@
             implements
                             <a href="classes/Hyde-Framework-Contracts-DocumentationSidebarServiceContract.html"><abbr title="\Hyde\Framework\Contracts\DocumentationSidebarServiceContract">DocumentationSidebarServiceContract</abbr></a>                    </span>
     
+            <span class="phpdocumentor-element__extends">
+            Uses
+                            <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html"><abbr title="\Hyde\Framework\Concerns\HasDocumentationSidebarCategories">HasDocumentationSidebarCategories</abbr></a>                    </span>
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -162,6 +165,13 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#property_categories">$categories</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#property_sidebar">$sidebar</a>
     <span>
                         &nbsp;: <a href="classes/Hyde-Framework-Models-DocumentationSidebar.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebar">DocumentationSidebar</abbr></a>            </span>
@@ -169,6 +179,20 @@
 <dd>The sidebar object created and managed by the service instance.</dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_addItem">addItem()</a>
+    <span>
+                                &nbsp;: self    </span>
+</dt>
+<dd>Add an item to the sidebar collection.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_create">create()</a>
+    <span>
+                                &nbsp;: static    </span>
+</dt>
+<dd>Shorthand to create a new Sidebar service using default methods.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_createSidebar">createSidebar()</a>
     <span>
                                 &nbsp;: self    </span>
@@ -183,11 +207,39 @@
 <dd>Shorthand to create a new Sidebar object using default methods.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_getCategories">getCategories()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_getItemsInCategory">getItemsInCategory()</a>
+    <span>
+                                &nbsp;: <a href="classes/Hyde-Framework-Models-DocumentationSidebar.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebar">DocumentationSidebar</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSidebar">getSidebar()</a>
     <span>
                                 &nbsp;: <a href="classes/Hyde-Framework-Models-DocumentationSidebar.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebar">DocumentationSidebar</abbr></a>    </span>
 </dt>
 <dd>Get the sidebar object created and managed by the service instance.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_hasCategories">hasCategories()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_assembleCategories">assembleCategories()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_createSidebarItemFromSlug">createSidebarItemFromSlug()</a>
@@ -202,6 +254,13 @@
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd>Get an array of source files to add to the sidebar.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_setCategoryOfUncategorizedItems">setCategoryOfUncategorizedItems()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_withoutHidden">withoutHidden()</a>
@@ -236,6 +295,40 @@
             -protected
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="property_categories">
+        $categories
+        <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#property_categories" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasDocumentationSidebarCategories.php"><a href="files/framework-src-concerns-hasdocumentationsidebarcategories.html"><abbr title="framework/src/Concerns/HasDocumentationSidebarCategories.php">HasDocumentationSidebarCategories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$categories</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="property_sidebar">
         $sidebar
         <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#property_sidebar" class="headerlink"><i class="fas fa-link"></i></a>
@@ -245,7 +338,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -276,6 +369,83 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_addItem">
+        addItem()
+        <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_addItem" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Add an item to the sidebar collection.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">addItem</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Hyde-Framework-Models-DocumentationSidebarItem.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebarItem">DocumentationSidebarItem</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$item</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$item</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Hyde-Framework-Models-DocumentationSidebarItem.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebarItem">DocumentationSidebarItem</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_create">
+        create()
+        <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_create" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Shorthand to create a new Sidebar service using default methods.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">create</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">static</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">static</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_createSidebar">
         createSidebar()
         <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_createSidebar" class="headerlink"><i class="fas fa-link"></i></a>
@@ -283,7 +453,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
@@ -316,7 +486,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -342,6 +512,83 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getCategories">
+        getCategories()
+        <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_getCategories" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasDocumentationSidebarCategories.php"><a href="files/framework-src-concerns-hasdocumentationsidebarcategories.html"><abbr title="framework/src/Concerns/HasDocumentationSidebarCategories.php">HasDocumentationSidebarCategories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCategories</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getItemsInCategory">
+        getItemsInCategory()
+        <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_getItemsInCategory" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasDocumentationSidebarCategories.php"><a href="files/framework-src-concerns-hasdocumentationsidebarcategories.html"><abbr title="framework/src/Concerns/HasDocumentationSidebarCategories.php">HasDocumentationSidebarCategories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getItemsInCategory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$category</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Hyde-Framework-Models-DocumentationSidebar.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebar">DocumentationSidebar</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$category</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Hyde-Framework-Models-DocumentationSidebar.html"><abbr title="\Hyde\Framework\Models\DocumentationSidebar">DocumentationSidebar</abbr></a></span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getSidebar">
         getSidebar()
         <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSidebar" class="headerlink"><i class="fas fa-link"></i></a>
@@ -349,7 +596,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
     </aside>
 
@@ -372,6 +619,72 @@
                     <article
         class="phpdocumentor-element
             -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_hasCategories">
+        hasCategories()
+        <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_hasCategories" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasDocumentationSidebarCategories.php"><a href="files/framework-src-concerns-hasdocumentationsidebarcategories.html"><abbr title="framework/src/Concerns/HasDocumentationSidebarCategories.php">HasDocumentationSidebarCategories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">hasCategories</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_assembleCategories">
+        assembleCategories()
+        <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_assembleCategories" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasDocumentationSidebarCategories.php"><a href="files/framework-src-concerns-hasdocumentationsidebarcategories.html"><abbr title="framework/src/Concerns/HasDocumentationSidebarCategories.php">HasDocumentationSidebarCategories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">assembleCategories</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
             -protected
                                                         "
 >
@@ -382,7 +695,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">109</span>
 
     </aside>
 
@@ -426,7 +739,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">101</span>
 
     </aside>
 
@@ -452,6 +765,39 @@
             -protected
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setCategoryOfUncategorizedItems">
+        setCategoryOfUncategorizedItems()
+        <a href="classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_setCategoryOfUncategorizedItems" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasDocumentationSidebarCategories.php"><a href="files/framework-src-concerns-hasdocumentationsidebarcategories.html"><abbr title="framework/src/Concerns/HasDocumentationSidebarCategories.php">HasDocumentationSidebarCategories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">setCategoryOfUncategorizedItems</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_withoutHidden">
         withoutHidden()
         <a href="classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_withoutHidden" class="headerlink"><i class="fas fa-link"></i></a>
@@ -459,7 +805,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">89</span>
 
     </aside>
 
@@ -492,7 +838,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/DocumentationSidebarService.php"><a href="files/framework-src-services-documentationsidebarservice.html"><abbr title="framework/src/Services/DocumentationSidebarService.php">DocumentationSidebarService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 

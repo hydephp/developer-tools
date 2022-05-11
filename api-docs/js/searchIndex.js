@@ -756,6 +756,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-HasDateString.html#property_date"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories",
+            "name": "HasDocumentationSidebarCategories",
+            "summary": "Extracts\u0020logic\u0020for\u0020the\u0020sidebar\u0020categories\u0020used\u0020in\u0020the\u0020SidebarService.",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories\u003A\u003AhasCategories\u0028\u0029",
+            "name": "hasCategories",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_hasCategories"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories\u003A\u003AgetCategories\u0028\u0029",
+            "name": "getCategories",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_getCategories"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories\u003A\u003AgetItemsInCategory\u0028\u0029",
+            "name": "getItemsInCategory",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_getItemsInCategory"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories\u003A\u003AassembleCategories\u0028\u0029",
+            "name": "assembleCategories",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_assembleCategories"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories\u003A\u003AsetCategoryOfUncategorizedItems\u0028\u0029",
+            "name": "setCategoryOfUncategorizedItems",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#method_setCategoryOfUncategorizedItems"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasDocumentationSidebarCategories\u003A\u003A\u0024categories",
+            "name": "categories",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasDocumentationSidebarCategories.html#property_categories"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasDynamicTitle",
             "name": "HasDynamicTitle",
             "summary": "Find\u0020and\u0020get\u0020the\u0020title\u0020to\u0020use\u0020for\u0020a\u0020Markdown\u0020Document.",
@@ -1521,6 +1556,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method_parseFromFile"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003AnormalizeCategoryKey\u0028\u0029",
+            "name": "normalizeCategoryKey",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#method_normalizeCategoryKey"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A\u0024label",
             "name": "label",
             "summary": "",
@@ -1540,6 +1580,11 @@ Search.appendIndex(
             "name": "hidden",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_hidden"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationSidebarItem\u003A\u003A\u0024category",
+            "name": "category",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationSidebarItem.html#property_category"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Image",
             "name": "Image",
@@ -1881,6 +1926,11 @@ Search.appendIndex(
             "summary": "Service\u0020class\u0020to\u0020create\u0020and\u0020manage\u0020the\u0020sidebar\u0020collection\u0020object.",
             "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "Shorthand\u0020to\u0020create\u0020a\u0020new\u0020Sidebar\u0020service\u0020using\u0020default\u0020methods.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_create"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003Aget\u0028\u0029",
             "name": "get",
             "summary": "Shorthand\u0020to\u0020create\u0020a\u0020new\u0020Sidebar\u0020object\u0020using\u0020default\u0020methods.",
@@ -1895,6 +1945,11 @@ Search.appendIndex(
             "name": "getSidebar",
             "summary": "Get\u0020the\u0020sidebar\u0020object\u0020created\u0020and\u0020managed\u0020by\u0020the\u0020service\u0020instance.",
             "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSidebar"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AaddItem\u0028\u0029",
+            "name": "addItem",
+            "summary": "Add\u0020an\u0020item\u0020to\u0020the\u0020sidebar\u0020collection.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_addItem"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AwithoutIndex\u0028\u0029",
             "name": "withoutIndex",
