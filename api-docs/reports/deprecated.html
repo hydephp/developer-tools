@@ -99,15 +99,15 @@
                 <h3>Table of Contents</h3>
         <table class="phpdocumentor-table_of_contents">
                             <tr>
-                    <td class="phpdocumentor-cell"><a href="reports/deprecated.html#framework/src/Concerns/Internal/FileHelpers.php">framework/src/Concerns/Internal/FileHelpers.php</a></td>
+                    <td class="phpdocumentor-cell"><a href="reports/deprecated.html#framework/src/Actions/CreatesDefaultDirectories.php">framework/src/Actions/CreatesDefaultDirectories.php</a></td>
                 </tr>
                             <tr>
                     <td class="phpdocumentor-cell"><a href="reports/deprecated.html#framework/src/Services/StarterFileService.php">framework/src/Services/StarterFileService.php</a></td>
                 </tr>
                     </table>
         
-                    <a id="framework/src/Concerns/Internal/FileHelpers.php"></a>
-            <h3><abbr title="framework/src/Concerns/Internal/FileHelpers.php">FileHelpers.php</abbr></h3>
+                    <a id="framework/src/Actions/CreatesDefaultDirectories.php"></a>
+            <h3><abbr title="framework/src/Actions/CreatesDefaultDirectories.php">CreatesDefaultDirectories.php</abbr></h3>
             <table>
                 <tr>
                     <th class="phpdocumentor-heading">Line</th>
@@ -115,9 +115,14 @@
                     <th class="phpdocumentor-heading">Reason</th>
                 </tr>
                                                             <tr>
-                            <td class="phpdocumentor-cell">76</td>
-                            <td class="phpdocumentor-cell"><a href="classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_relativePath"><abbr title="\Hyde\Framework\Concerns\Internal\FileHelpers::relativePath()">FileHelpers::relativePath()</abbr></a></td>
-                            <td class="phpdocumentor-cell"><p>use relativeLink() instead</p>
+                            <td class="phpdocumentor-cell">21</td>
+                            <td class="phpdocumentor-cell"><a href="classes/Hyde-Framework-Actions-CreatesDefaultDirectories.html"><abbr title="\Hyde\Framework\Actions\CreatesDefaultDirectories">CreatesDefaultDirectories</abbr></a></td>
+                            <td class="phpdocumentor-cell"><p>as Hyde is bringing support for changing the default directories.
+The directories needed will be created (if needed) when the filesystem
+needs to access them. The default directories may be created in the TestCase.</p>
+<p>To prevent any issues with file generations, this action
+is automatically whenever the application is booted.</p>
+<p>This behavior is handled in the Service Provider.</p>
 </td>
                         </tr>
                                                 </table>

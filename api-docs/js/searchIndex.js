@@ -931,10 +931,10 @@ Search.appendIndex(
             "summary": "Works\u0020similarly\u0020to\u0020the\u0020path\u0028\u0029\u0020function,\u0020but\u0020returns\u0020a\u0020file\u0020in\u0020the\u0020Framework\u0020package.",
             "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_vendorPath"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003ArelativePath\u0028\u0029",
-            "name": "relativePath",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_relativePath"
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003ApageLink\u0028\u0029",
+            "name": "pageLink",
+            "summary": "Format\u0020a\u0020link\u0020to\u0020an\u0020HTML\u0020file,\u0020allowing\u0020for\u0020pretty\u0020URLs,\u0020if\u0020enabled.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_pageLink"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003ArelativeLink\u0028\u0029",
             "name": "relativeLink",
@@ -950,6 +950,36 @@ Search.appendIndex(
             "name": "copy",
             "summary": "Wrapper\u0020for\u0020the\u0020copy\u0020function,\u0020but\u0020allows\u0020choosing\u0020if\u0020files\u0020may\u0020be\u0020overwritten.",
             "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_copy"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers",
+            "name": "SourcePathHelpers",
+            "summary": "Offloads\u0020file\u0020helper\u0020methods\u0020for\u0020the\u0020Hyde\u0020Facade.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetBladePagePath\u0028\u0029",
+            "name": "getBladePagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getBladePagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetMarkdownPagePath\u0028\u0029",
+            "name": "getMarkdownPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getMarkdownPagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetMarkdownPostPath\u0028\u0029",
+            "name": "getMarkdownPostPath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getMarkdownPostPath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetDocumentationPagePath\u0028\u0029",
+            "name": "getDocumentationPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getDocumentationPagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetModelSourcePath\u0028\u0029",
+            "name": "getModelSourcePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getModelSourcePath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Markdown\\HasConfigurableMarkdownFeatures",
             "name": "HasConfigurableMarkdownFeatures",
@@ -1030,6 +1060,16 @@ Search.appendIndex(
             "name": "torchlightAttribution",
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-Markdown-HasTorchlightIntegration.html#property_torchlightAttribution"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\RegistersDefaultDirectories",
+            "name": "RegistersDefaultDirectories",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-RegistersDefaultDirectories.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\RegistersDefaultDirectories\u003A\u003AregisterDefaultDirectories\u0028\u0029",
+            "name": "registerDefaultDirectories",
+            "summary": "Register\u0020the\u0020default\u0020directories.",
+            "url": "classes/Hyde-Framework-Concerns-RegistersDefaultDirectories.html#method_registerDefaultDirectories"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\ValidatesExistence",
             "name": "ValidatesExistence",
@@ -1286,6 +1326,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Hyde.html#method_version"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003AgetBasePath\u0028\u0029",
+            "name": "getBasePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Hyde.html#method_getBasePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003AsetBasePath\u0028\u0029",
+            "name": "setBasePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Hyde.html#method_setBasePath"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003AtitleFromSlug\u0028\u0029",
             "name": "titleFromSlug",
             "summary": "",
@@ -1301,6 +1351,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Hyde.html#method_features"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003A\u0024basePath",
+            "name": "basePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Hyde.html#property_basePath"
+        },                {
             "fqsen": "\\Hyde\\Framework\\HydeServiceProvider",
             "name": "HydeServiceProvider",
             "summary": "Register\u0020and\u0020bootstrap\u0020Hyde\u0020application\u0020services.",
@@ -1315,6 +1370,11 @@ Search.appendIndex(
             "name": "boot",
             "summary": "Bootstrap\u0020any\u0020application\u0020services.",
             "url": "classes/Hyde-Framework-HydeServiceProvider.html#method_boot"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\HydeServiceProvider\u003A\u003AdiscoverBladeViewsIn\u0028\u0029",
+            "name": "discoverBladeViewsIn",
+            "summary": "If\u0020you\u0020are\u0020loading\u0020Blade\u0020views\u0020from\u0020a\u0020different\u0020directory,\nyou\u0020need\u0020to\u0020add\u0020the\u0020path\u0020to\u0020the\u0020view.php\u0020config.\u0020This\u0020is\nhere\u0020done\u0020automatically\u0020when\u0020registering\u0020this\u0020provider.",
+            "url": "classes/Hyde-Framework-HydeServiceProvider.html#method_discoverBladeViewsIn"
         },                {
             "fqsen": "\\Hyde\\Framework\\Markdown",
             "name": "Markdown",
@@ -1851,41 +1911,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Services-AuthorService.html#property_authors"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService",
-            "name": "BuildService",
-            "summary": "Static\u0020service\u0020helpers\u0020for\u0020building\u0020static\u0020pages.",
-            "url": "classes/Hyde-Framework-Services-BuildService.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService\u003A\u003AgetParserClassForModel\u0028\u0029",
-            "name": "getParserClassForModel",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Services-BuildService.html#method_getParserClassForModel"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService\u003A\u003AgetParserInstanceForModel\u0028\u0029",
-            "name": "getParserInstanceForModel",
-            "summary": "Create\u0020and\u0020get\u0020a\u0020constructed\u0020instance\u0020of\u0020a\u0020Model\u0027s\u0020Parser\u0020class.",
-            "url": "classes/Hyde-Framework-Services-BuildService.html#method_getParserInstanceForModel"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService\u003A\u003AgetFileExtensionForModelFiles\u0028\u0029",
-            "name": "getFileExtensionForModelFiles",
-            "summary": "Get\u0020the\u0020file\u0020extension\u0020for\u0020a\u0020models\u0020source\u0020files.",
-            "url": "classes/Hyde-Framework-Services-BuildService.html#method_getFileExtensionForModelFiles"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService\u003A\u003AgetFilePathForModelClassFiles\u0028\u0029",
-            "name": "getFilePathForModelClassFiles",
-            "summary": "Get\u0020the\u0020source\u0020directory\u0020path\u0020of\u0020a\u0020model.",
-            "url": "classes/Hyde-Framework-Services-BuildService.html#method_getFilePathForModelClassFiles"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService\u003A\u003AfindModelFromFilePath\u0028\u0029",
-            "name": "findModelFromFilePath",
-            "summary": "Determine\u0020the\u0020Page\u0020Model\u0020to\u0020use\u0020for\u0020a\u0020given\u0020file\u0020path.",
-            "url": "classes/Hyde-Framework-Services-BuildService.html#method_findModelFromFilePath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\BuildService\u003A\u003AcreateClickableFilepath\u0028\u0029",
-            "name": "createClickableFilepath",
-            "summary": "Create\u0020a\u0020filepath\u0020that\u0020can\u0020be\u0020opened\u0020in\u0020the\u0020browser\u0020from\u0020a\u0020terminal.",
-            "url": "classes/Hyde-Framework-Services-BuildService.html#method_createClickableFilepath"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\CollectionService",
             "name": "CollectionService",
             "summary": "Contains\u0020service\u0020methods\u0020to\u0020return\u0020helpful\u0020collections\u0020of\u0020arrays\u0020and\u0020lists.",
@@ -1920,6 +1945,41 @@ Search.appendIndex(
             "name": "getMediaAssetFiles",
             "summary": "Get\u0020all\u0020the\u0020Media\u0020asset\u0020file\u0020paths.",
             "url": "classes/Hyde-Framework-Services-CollectionService.html#method_getMediaAssetFiles"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService",
+            "name": "DiscoveryService",
+            "summary": "The\u0020Discovery\u0020Service\u0020\u0028previously\u0020called\u0020BuildService\u0029\u0020provides\nhelper\u0020methods\u0020for\u0020source\u0020file\u0020autodiscovery\u0020used\u0020in\u0020the\u0020building\nprocess\u0020to\u0020determine\u0020where\u0020files\u0020are\u0020located\u0020and\u0020how\u0020to\u0020parse\u0020them.",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService\u003A\u003AgetParserClassForModel\u0028\u0029",
+            "name": "getParserClassForModel",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html#method_getParserClassForModel"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService\u003A\u003AgetParserInstanceForModel\u0028\u0029",
+            "name": "getParserInstanceForModel",
+            "summary": "Create\u0020and\u0020get\u0020a\u0020constructed\u0020instance\u0020of\u0020a\u0020Model\u0027s\u0020Parser\u0020class.",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html#method_getParserInstanceForModel"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService\u003A\u003AgetFileExtensionForModelFiles\u0028\u0029",
+            "name": "getFileExtensionForModelFiles",
+            "summary": "Get\u0020the\u0020file\u0020extension\u0020for\u0020a\u0020models\u0020source\u0020files.",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html#method_getFileExtensionForModelFiles"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService\u003A\u003AgetFilePathForModelClassFiles\u0028\u0029",
+            "name": "getFilePathForModelClassFiles",
+            "summary": "Get\u0020the\u0020source\u0020directory\u0020path\u0020of\u0020a\u0020model.",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html#method_getFilePathForModelClassFiles"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService\u003A\u003AfindModelFromFilePath\u0028\u0029",
+            "name": "findModelFromFilePath",
+            "summary": "Determine\u0020the\u0020Page\u0020Model\u0020to\u0020use\u0020for\u0020a\u0020given\u0020file\u0020path.",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html#method_findModelFromFilePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DiscoveryService\u003A\u003AcreateClickableFilepath\u0028\u0029",
+            "name": "createClickableFilepath",
+            "summary": "Create\u0020a\u0020filepath\u0020that\u0020can\u0020be\u0020opened\u0020in\u0020the\u0020browser\u0020from\u0020a\u0020terminal.",
+            "url": "classes/Hyde-Framework-Services-DiscoveryService.html#method_createClickableFilepath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService",
             "name": "DocumentationSidebarService",
