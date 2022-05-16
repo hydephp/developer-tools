@@ -318,7 +318,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003Apurge\u0028\u0029",
             "name": "purge",
-            "summary": "Clear\u0020the\u0020entire\u0020_site\u0020directory\u0020before\u0020running\u0020the\u0020build.",
+            "summary": "Clear\u0020the\u0020entire\u0020output\u0020directory\u0020before\u0020running\u0020the\u0020build.",
             "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_purge"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003ApostBuildActions\u0028\u0029",
@@ -586,51 +586,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydePublishViewsCommand.html#property_selected"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand",
-            "name": "HydeRebuildStaticSiteCommand",
-            "summary": "Hyde\u0020Command\u0020to\u0020build\u0020a\u0020single\u0020static\u0020site\u0020file.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003Ahandle\u0028\u0029",
-            "name": "handle",
-            "summary": "Execute\u0020the\u0020console\u0020command.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_handle"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AsanitizePathString\u0028\u0029",
-            "name": "sanitizePathString",
-            "summary": "Perform\u0020a\u0020basic\u0020sanitation\u0020to\u0020strip\u0020trailing\u0020characters.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_sanitizePathString"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003Avalidate\u0028\u0029",
-            "name": "validate",
-            "summary": "Validate\u0020the\u0020path\u0020to\u0020catch\u0020common\u0020errors.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_validate"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AhandleException\u0028\u0029",
-            "name": "handleException",
-            "summary": "Output\u0020the\u0020contents\u0020of\u0020an\u0020exception.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_handleException"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AgetOutputPath\u0028\u0029",
-            "name": "getOutputPath",
-            "summary": "Get\u0020the\u0020output\u0020path\u0020for\u0020the\u0020given\u0020source\u0020file\u0020path.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_getOutputPath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024signature",
-            "name": "signature",
-            "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_signature"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024description",
-            "name": "description",
-            "summary": "The\u0020description\u0020of\u0020the\u0020command.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_description"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024path",
-            "name": "path",
-            "summary": "The\u0020source\u0020path.",
-            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_path"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeServeCommand",
             "name": "HydeServeCommand",
             "summary": "Start\u0020the\u0020realtime\u0020compiler\u0020server.",
@@ -886,6 +841,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-HasTableOfContents.html#property_tableOfContents"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\InteractsWithDirectories",
+            "name": "InteractsWithDirectories",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-InteractsWithDirectories.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\InteractsWithDirectories\u003A\u003AneedsDirectory\u0028\u0029",
+            "name": "needsDirectory",
+            "summary": "Ensure\u0020the\u0020supplied\u0020directory\u0020exist\u0020by\u0020creating\u0020it\u0020if\u0020it\u0020does\u0020not.",
+            "url": "classes/Hyde-Framework-Concerns-InteractsWithDirectories.html#method_needsDirectory"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\InteractsWithDirectories\u003A\u003AneedsDirectories\u0028\u0029",
+            "name": "needsDirectories",
+            "summary": "Ensure\u0020the\u0020supplied\u0020directories\u0020exist\u0020by\u0020creating\u0020them\u0020if\u0020they\u0020don\u0027t.",
+            "url": "classes/Hyde-Framework-Concerns-InteractsWithDirectories.html#method_needsDirectories"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\AssetManager",
             "name": "AssetManager",
             "summary": "Offloads\u0020asset\u0020related\u0020methods\u0020for\u0020the\u0020Hyde\u0020Facade.",
@@ -951,35 +921,45 @@ Search.appendIndex(
             "summary": "Wrapper\u0020for\u0020the\u0020copy\u0020function,\u0020but\u0020allows\u0020choosing\u0020if\u0020files\u0020may\u0020be\u0020overwritten.",
             "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_copy"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers",
-            "name": "SourcePathHelpers",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers",
+            "name": "FluentPathHelpers",
             "summary": "Offloads\u0020file\u0020helper\u0020methods\u0020for\u0020the\u0020Hyde\u0020Facade.",
-            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html"
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetBladePagePath\u0028\u0029",
-            "name": "getBladePagePath",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getBladePagePath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetMarkdownPagePath\u0028\u0029",
-            "name": "getMarkdownPagePath",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getMarkdownPagePath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetMarkdownPostPath\u0028\u0029",
-            "name": "getMarkdownPostPath",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getMarkdownPostPath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetDocumentationPagePath\u0028\u0029",
-            "name": "getDocumentationPagePath",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getDocumentationPagePath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\SourcePathHelpers\u003A\u003AgetModelSourcePath\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003AgetModelSourcePath\u0028\u0029",
             "name": "getModelSourcePath",
             "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-Internal-SourcePathHelpers.html#method_getModelSourcePath"
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_getModelSourcePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003AgetBladePagePath\u0028\u0029",
+            "name": "getBladePagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_getBladePagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003AgetMarkdownPagePath\u0028\u0029",
+            "name": "getMarkdownPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_getMarkdownPagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003AgetMarkdownPostPath\u0028\u0029",
+            "name": "getMarkdownPostPath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_getMarkdownPostPath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003AgetDocumentationPagePath\u0028\u0029",
+            "name": "getDocumentationPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_getDocumentationPagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003AgetSiteOutputPath\u0028\u0029",
+            "name": "getSiteOutputPath",
+            "summary": "Get\u0020the\u0020absolute\u0020path\u0020to\u0020the\u0020compiled\u0020site\u0020directory,\u0020or\u0020a\u0020file\u0020within\u0020it.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_getSiteOutputPath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FluentPathHelpers\u003A\u003ApathToRelative\u0028\u0029",
+            "name": "pathToRelative",
+            "summary": "Decode\u0020an\u0020absolute\u0020path\u0020created\u0020with\u0020a\u0020Hyde\u003A\u003Apath\u0028\u0029\u0020helper\u0020into\u0020its\u0020relative\u0020counterpart.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FluentPathHelpers.html#method_pathToRelative"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Markdown\\HasConfigurableMarkdownFeatures",
             "name": "HasConfigurableMarkdownFeatures",
@@ -1375,6 +1355,11 @@ Search.appendIndex(
             "name": "discoverBladeViewsIn",
             "summary": "If\u0020you\u0020are\u0020loading\u0020Blade\u0020views\u0020from\u0020a\u0020different\u0020directory,\nyou\u0020need\u0020to\u0020add\u0020the\u0020path\u0020to\u0020the\u0020view.php\u0020config.\u0020This\u0020is\nhere\u0020done\u0020automatically\u0020when\u0020registering\u0020this\u0020provider.",
             "url": "classes/Hyde-Framework-HydeServiceProvider.html#method_discoverBladeViewsIn"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\HydeServiceProvider\u003A\u003AstoreCompiledSiteIn\u0028\u0029",
+            "name": "storeCompiledSiteIn",
+            "summary": "The\u0020absolute\u0020path\u0020to\u0020the\u0020directory\u0020when\u0020the\u0020compiled\u0020site\u0020is\u0020stored.",
+            "url": "classes/Hyde-Framework-HydeServiceProvider.html#method_storeCompiledSiteIn"
         },                {
             "fqsen": "\\Hyde\\Framework\\Markdown",
             "name": "Markdown",
@@ -2241,10 +2226,10 @@ Search.appendIndex(
             "summary": "Compile\u0020a\u0020Documentation\u0020page\u0020into\u0020HTML\u0020using\u0020the\u0020Blade\u0020View.",
             "url": "classes/Hyde-Framework-StaticPageBuilder.html#method_compileDocs"
         },                {
-            "fqsen": "\\Hyde\\Framework\\StaticPageBuilder\u003A\u003AmakeSureDocsDirectoryExists\u0028\u0029",
-            "name": "makeSureDocsDirectoryExists",
-            "summary": "Make\u0020sure\u0020the\u0020config\u0020defined\u0020directory\u0020for\u0020outputting\u0020the\ndocumentation\u0020files\u0020exists\u0020by\u0020creating\u0020it\u0020if\u0020it\u0020doesn\u0027t.",
-            "url": "classes/Hyde-Framework-StaticPageBuilder.html#method_makeSureDocsDirectoryExists"
+            "fqsen": "\\Hyde\\Framework\\StaticPageBuilder\u003A\u003A\u0024outputPath",
+            "name": "outputPath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-StaticPageBuilder.html#property_outputPath"
         },                {
             "fqsen": "\\Hyde\\Framework\\StaticPageBuilder\u003A\u003A\u0024page",
             "name": "page",

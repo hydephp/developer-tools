@@ -106,12 +106,15 @@
         </div>
     
     
+            <span class="phpdocumentor-element__extends">
+            Uses
+                            <a href="classes/Hyde-Framework-Concerns-InteractsWithDirectories.html"><abbr title="\Hyde\Framework\Concerns\InteractsWithDirectories">InteractsWithDirectories</abbr></a>                    </span>
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -119,22 +122,6 @@
 
 
 
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">todo</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Create the required directories if they don't exist.
-Can be done using a trait where an array of the required directories is passed.</p>
-</section>
-
-                                    </dd>
-                        </dl>
 
 
 
@@ -147,7 +134,14 @@ Can be done using a trait where an array of the required directories is passed.<
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+                    <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Hyde-Framework-StaticPageBuilder.html#property_outputPath">$outputPath</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a href="classes/Hyde-Framework-StaticPageBuilder.html#property_page">$page</a>
     <span>
                         &nbsp;: <a href="classes/Hyde-Framework-Models-MarkdownDocument.html"><abbr title="\Hyde\Framework\Models\MarkdownDocument">MarkdownDocument</abbr></a>|<a href="classes/Hyde-Framework-Models-BladePage.html"><abbr title="\Hyde\Framework\Models\BladePage">BladePage</abbr></a>            </span>
@@ -168,13 +162,19 @@ Can be done using a trait where an array of the required directories is passed.<
 </dt>
 <dd>Run the page builder.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Hyde-Framework-StaticPageBuilder.html#method_makeSureDocsDirectoryExists">makeSureDocsDirectoryExists()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Concerns-InteractsWithDirectories.html#method_needsDirectories">needsDirectories()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Make sure the config defined directory for outputting the
-documentation files exists by creating it if it doesn&#039;t.</dd>
+<dd>Ensure the supplied directories exist by creating them if they don&#039;t.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Concerns-InteractsWithDirectories.html#method_needsDirectory">needsDirectory()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Ensure the supplied directory exist by creating it if it does not.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/Hyde-Framework-StaticPageBuilder.html#method_compileDocs">compileDocs()</a>
@@ -227,6 +227,40 @@ documentation files exists by creating it if it doesn&#039;t.</dd>
         class="
             phpdocumentor-element
             -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_outputPath">
+        $outputPath
+        <a href="classes/Hyde-Framework-StaticPageBuilder.html#property_outputPath" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">23</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$outputPath</span>
+    </code>
+
+    
+        <section class="phpdocumentor-description"><p>Absolute path to the directory to place compiled files in.</p>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
             -protected
                                                         "
 >
@@ -239,7 +273,7 @@ documentation files exists by creating it if it doesn&#039;t.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -277,7 +311,7 @@ documentation files exists by creating it if it doesn&#039;t.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -331,7 +365,7 @@ documentation files exists by creating it if it doesn&#039;t.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -354,29 +388,85 @@ documentation files exists by creating it if it doesn&#039;t.</dd>
                     <article
         class="phpdocumentor-element
             -method
-            -protected
+            -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_makeSureDocsDirectoryExists">
-        makeSureDocsDirectoryExists()
-        <a href="classes/Hyde-Framework-StaticPageBuilder.html#method_makeSureDocsDirectoryExists" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_needsDirectories">
+        needsDirectories()
+        <a href="classes/Hyde-Framework-Concerns-InteractsWithDirectories.html#method_needsDirectories" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/InteractsWithDirectories.php"><a href="files/framework-src-concerns-interactswithdirectories.html"><abbr title="framework/src/Concerns/InteractsWithDirectories.php">InteractsWithDirectories.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">134</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Make sure the config defined directory for outputting the
-documentation files exists by creating it if it doesn&#039;t.</p>
+        <p class="phpdocumentor-summary">Ensure the supplied directories exist by creating them if they don&#039;t.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">makeSureDocsDirectoryExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">needsDirectories</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$directories</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$directories</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>array with absolute file paths to the directories</p>
+</section>
+
+            </dd>
+            </dl>
+
     
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_needsDirectory">
+        needsDirectory()
+        <a href="classes/Hyde-Framework-Concerns-InteractsWithDirectories.html#method_needsDirectory" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/InteractsWithDirectories.php"><a href="files/framework-src-concerns-interactswithdirectories.html"><abbr title="framework/src/Concerns/InteractsWithDirectories.php">InteractsWithDirectories.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Ensure the supplied directory exist by creating it if it does not.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">needsDirectory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$directory</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$directory</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>absolute file path to the directory</p>
+</section>
+
+            </dd>
+            </dl>
+
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -398,7 +488,7 @@ documentation files exists by creating it if it doesn&#039;t.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">118</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 
     </aside>
 
@@ -431,7 +521,7 @@ documentation files exists by creating it if it doesn&#039;t.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -464,7 +554,7 @@ documentation files exists by creating it if it doesn&#039;t.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -497,7 +587,7 @@ documentation files exists by creating it if it doesn&#039;t.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -530,7 +620,7 @@ documentation files exists by creating it if it doesn&#039;t.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/StaticPageBuilder.php"><a href="files/framework-src-staticpagebuilder.html"><abbr title="framework/src/StaticPageBuilder.php">StaticPageBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 
     </aside>
 
@@ -548,7 +638,7 @@ documentation files exists by creating it if it doesn&#039;t.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>of the output file relative to _site/</p>
+                    <section class="phpdocumentor-description"><p>of the output file relative to the site output directory</p>
 </section>
 
             </dd>

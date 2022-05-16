@@ -185,7 +185,7 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Clear the entire _site directory before running the build.</dd>
+<dd>Clear the entire output directory before running the build.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a href="classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_runNodeCommand">runNodeCommand()</a>
@@ -222,7 +222,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeBuildStaticSiteCommand.php"><a href="files/framework-src-commands-hydebuildstaticsitecommand.html"><abbr title="framework/src/Commands/HydeBuildStaticSiteCommand.php">HydeBuildStaticSiteCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -268,9 +268,10 @@
      = <span class="phpdocumentor-signature__default-value">&#039;build 
         {--run-dev : Run the NPM dev script after build}
         {--run-prod : Run the NPM prod script after build}
-        {--pretty : Should the build files be prettified?}
+        {--pretty : Deprecated option, use --run-prettier instead}
+        {--run-prettier : Format the output using NPM Prettier}
         {--pretty-urls : Should links in output use pretty URLs?}
-        {--no-api : Disable external API calls, such as Torchlight}&#039;</span></code>
+        {--no-api : Disable API calls, for example, Torchlight}&#039;</span></code>
 
     
     
@@ -297,7 +298,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeBuildStaticSiteCommand.php"><a href="files/framework-src-commands-hydebuildstaticsitecommand.html"><abbr title="framework/src/Commands/HydeBuildStaticSiteCommand.php">HydeBuildStaticSiteCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -344,7 +345,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeBuildStaticSiteCommand.php"><a href="files/framework-src-commands-hydebuildstaticsitecommand.html"><abbr title="framework/src/Commands/HydeBuildStaticSiteCommand.php">HydeBuildStaticSiteCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">151</span>
+    <span class="phpdocumentor-element-found-in__line">154</span>
 
     </aside>
 
@@ -357,6 +358,21 @@
     
     
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>#363 Add unit test for prettier command (can work by comparing compiled baseline to output to see if it was prettified);</p>
+</section>
+
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
@@ -377,11 +393,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeBuildStaticSiteCommand.php"><a href="files/framework-src-commands-hydebuildstaticsitecommand.html"><abbr title="framework/src/Commands/HydeBuildStaticSiteCommand.php">HydeBuildStaticSiteCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">132</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Clear the entire _site directory before running the build.</p>
+        <p class="phpdocumentor-summary">Clear the entire output directory before running the build.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -410,7 +426,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Commands/HydeBuildStaticSiteCommand.php"><a href="files/framework-src-commands-hydebuildstaticsitecommand.html"><abbr title="framework/src/Commands/HydeBuildStaticSiteCommand.php">HydeBuildStaticSiteCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">177</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 
     </aside>
 
