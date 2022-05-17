@@ -816,11 +816,6 @@ Search.appendIndex(
             "summary": "Generate\u0020metadata\u0020from\u0020the\u0020front\u0020matter\u0020that\u0020can\u0020be\u0020used\u0020for\u0020og\u003Atype\u0020\u003Cmeta\u003E\u0020tags.",
             "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetaProperties"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AgetAuthor\u0028\u0029",
-            "name": "getAuthor",
-            "summary": "Parse\u0020the\u0020author\u0020string\u0020from\u0020the\u0020front\u0020matter\u0020with\u0020support\u0020for\u0020both\u0020flat\u0020and\u0020array\u0020notation.",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_getAuthor"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003A\u0024metadata",
             "name": "metadata",
             "summary": "",
@@ -1441,6 +1436,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-MarkdownPostParser.html#property_matter"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Meta",
+            "name": "Meta",
+            "summary": "Helpers\u0020to\u0020fluently\u0020declare\u0020HTML\u0020meta\u0020tags.",
+            "url": "classes/Hyde-Framework-Meta.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Meta.html#method_name"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003Aproperty\u0028\u0029",
+            "name": "property",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Meta.html#method_property"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Meta.html#method_render"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003AfilterUnique\u0028\u0029",
+            "name": "filterUnique",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Meta.html#method_filterUnique"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003AgetGlobalMeta\u0028\u0029",
+            "name": "getGlobalMeta",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Meta.html#method_getGlobalMeta"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003AformatOpenGraphProperty\u0028\u0029",
+            "name": "formatOpenGraphProperty",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Meta.html#method_formatOpenGraphProperty"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author",
             "name": "Author",
             "summary": "The\u0020Post\u0020Author\u0020Object\u0020Model.",
@@ -1880,6 +1910,11 @@ Search.appendIndex(
             "name": "find",
             "summary": "Find\u0020and\u0020retrieve\u0020an\u0020Author\u0020by\u0020their\u0020username.",
             "url": "classes/Hyde-Framework-Services-AuthorService.html#method_find"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003AgetAuthorName\u0028\u0029",
+            "name": "getAuthorName",
+            "summary": "Parse\u0020the\u0020author\u0020name\u0020string\u0020from\u0020front\u0020matter\u0020with\u0020support\u0020for\u0020both\u0020flat\u0020and\u0020array\u0020notation.",
+            "url": "classes/Hyde-Framework-Services-AuthorService.html#method_getAuthorName"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003A\u0024filepath",
             "name": "filepath",
