@@ -1216,75 +1216,115 @@ Search.appendIndex(
             "summary": "Get\u0020the\u0020parsed\u0020page\u0020object.",
             "url": "classes/Hyde-Framework-Contracts-PageParserContract.html#method_get"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features",
             "name": "Features",
             "summary": "Allows\u0020features\u0020to\u0020be\u0020enabled\u0020and\u0020disabled\u0020in\u0020a\u0020simple\u0020object\u002Doriented\u0020manner.",
-            "url": "classes/Hyde-Framework-Features.html"
+            "url": "classes/Hyde-Framework-Helpers-Features.html"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003Aenabled\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003Aenabled\u0028\u0029",
             "name": "enabled",
             "summary": "Determine\u0020if\u0020the\u0020given\u0020specified\u0020is\u0020enabled.",
-            "url": "classes/Hyde-Framework-Features.html#method_enabled"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_enabled"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasBlogPosts\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasBlogPosts\u0028\u0029",
             "name": "hasBlogPosts",
             "summary": "\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\nDetermine\u0020if\u0020a\u0020given\u0020feature\u0020is\u0020enabled.",
-            "url": "classes/Hyde-Framework-Features.html#method_hasBlogPosts"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasBlogPosts"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasBladePages\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasBladePages\u0028\u0029",
             "name": "hasBladePages",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_hasBladePages"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasBladePages"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasMarkdownPages\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasMarkdownPages\u0028\u0029",
             "name": "hasMarkdownPages",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_hasMarkdownPages"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasMarkdownPages"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasDocumentationPages\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasDocumentationPages\u0028\u0029",
             "name": "hasDocumentationPages",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_hasDocumentationPages"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasDocumentationPages"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasDarkmode\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasDarkmode\u0028\u0029",
             "name": "hasDarkmode",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_hasDarkmode"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasDarkmode"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AhasTorchlight\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasTorchlight\u0028\u0029",
             "name": "hasTorchlight",
             "summary": "Torchlight\u0020is\u0020by\u0020default\u0020enabled\u0020automatically\u0020when\u0020an\u0020API\u0020token\nis\u0020set\u0020in\u0020the\u0020.env\u0020file\u0020but\u0020is\u0020disabled\u0020when\u0020running\u0020tests.",
-            "url": "classes/Hyde-Framework-Features.html#method_hasTorchlight"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasTorchlight"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AblogPosts\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AblogPosts\u0028\u0029",
             "name": "blogPosts",
             "summary": "\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\u003D\nEnable\u0020a\u0020given\u0020feature\u0020to\u0020be\u0020used\u0020in\u0020the\u0020config.",
-            "url": "classes/Hyde-Framework-Features.html#method_blogPosts"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_blogPosts"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AbladePages\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AbladePages\u0028\u0029",
             "name": "bladePages",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_bladePages"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_bladePages"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AmarkdownPages\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AmarkdownPages\u0028\u0029",
             "name": "markdownPages",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_markdownPages"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_markdownPages"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003AdocumentationPages\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AdocumentationPages\u0028\u0029",
             "name": "documentationPages",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_documentationPages"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_documentationPages"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003Adarkmode\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003Adarkmode\u0028\u0029",
             "name": "darkmode",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_darkmode"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_darkmode"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Features\u003A\u003Atorchlight\u0028\u0029",
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003Atorchlight\u0028\u0029",
             "name": "torchlight",
             "summary": "",
-            "url": "classes/Hyde-Framework-Features.html#method_torchlight"
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_torchlight"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Markdown",
+            "name": "Markdown",
+            "summary": "General\u0020interface\u0020for\u0020Markdown\u0020services.",
+            "url": "classes/Hyde-Framework-Helpers-Markdown.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta",
+            "name": "Meta",
+            "summary": "Helpers\u0020to\u0020fluently\u0020declare\u0020HTML\u0020meta\u0020tags.",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta\u003A\u003Aname\u0028\u0029",
+            "name": "name",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html#method_name"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta\u003A\u003Aproperty\u0028\u0029",
+            "name": "property",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html#method_property"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html#method_render"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta\u003A\u003AfilterUnique\u0028\u0029",
+            "name": "filterUnique",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html#method_filterUnique"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta\u003A\u003AgetGlobalMeta\u0028\u0029",
+            "name": "getGlobalMeta",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html#method_getGlobalMeta"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Meta\u003A\u003AformatOpenGraphProperty\u0028\u0029",
+            "name": "formatOpenGraphProperty",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Meta.html#method_formatOpenGraphProperty"
         },                {
             "fqsen": "\\Hyde\\Framework\\Hyde",
             "name": "Hyde",
@@ -1350,46 +1390,6 @@ Search.appendIndex(
             "name": "storeCompiledSiteIn",
             "summary": "The\u0020absolute\u0020path\u0020to\u0020the\u0020directory\u0020when\u0020the\u0020compiled\u0020site\u0020is\u0020stored.",
             "url": "classes/Hyde-Framework-HydeServiceProvider.html#method_storeCompiledSiteIn"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Markdown",
-            "name": "Markdown",
-            "summary": "General\u0020interface\u0020for\u0020Markdown\u0020services.",
-            "url": "classes/Hyde-Framework-Markdown.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta",
-            "name": "Meta",
-            "summary": "Helpers\u0020to\u0020fluently\u0020declare\u0020HTML\u0020meta\u0020tags.",
-            "url": "classes/Hyde-Framework-Meta.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003Aname\u0028\u0029",
-            "name": "name",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Meta.html#method_name"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003Aproperty\u0028\u0029",
-            "name": "property",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Meta.html#method_property"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003Arender\u0028\u0029",
-            "name": "render",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Meta.html#method_render"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003AfilterUnique\u0028\u0029",
-            "name": "filterUnique",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Meta.html#method_filterUnique"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003AgetGlobalMeta\u0028\u0029",
-            "name": "getGlobalMeta",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Meta.html#method_getGlobalMeta"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Meta\u003A\u003AformatOpenGraphProperty\u0028\u0029",
-            "name": "formatOpenGraphProperty",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Meta.html#method_formatOpenGraphProperty"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author",
             "name": "Author",
@@ -2355,6 +2355,11 @@ Search.appendIndex(
             "name": "Contracts",
             "summary": "",
             "url": "namespaces/hyde-framework-contracts.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers",
+            "name": "Helpers",
+            "summary": "",
+            "url": "namespaces/hyde-framework-helpers.html"
         },                {
             "fqsen": "\\Hyde\\Framework",
             "name": "Framework",
