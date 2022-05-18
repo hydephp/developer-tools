@@ -2221,6 +2221,51 @@ Search.appendIndex(
             "summary": "The\u0020page\u0020builder\u0020instance.",
             "url": "classes/Hyde-Framework-Services-RebuildService.html#property_builder"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService",
+            "name": "SitemapService",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003Agenerate\u0028\u0029",
+            "name": "generate",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_generate"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AgetXML\u0028\u0029",
+            "name": "getXML",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_getXML"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AaddPageModelUrls\u0028\u0029",
+            "name": "addPageModelUrls",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_addPageModelUrls"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AgetLastModDate\u0028\u0029",
+            "name": "getLastModDate",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_getLastModDate"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AgenerateSitemap\u0028\u0029",
+            "name": "generateSitemap",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_generateSitemap"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AcanGenerateSitemap\u0028\u0029",
+            "name": "canGenerateSitemap",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_canGenerateSitemap"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003A\u0024xmlElement",
+            "name": "xmlElement",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#property_xmlElement"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\StarterFileService",
             "name": "StarterFileService",
             "summary": "Manage\u0020the\u0020content\u0020files\u0020that\u0020should\u0020be\u0020included\u0020in\u0020Hyde\/Hyde\u0020installations.",
