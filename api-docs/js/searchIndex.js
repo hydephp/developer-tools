@@ -671,6 +671,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-Commands-AsksToRebuildSite.html#method_askToRebuildSite"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata",
+            "name": "GeneratesPageMetadata",
+            "summary": "Generates\u0020metadata\u0020for\u0020page\u0020models\u0020that\u0020have\u0020front\u0020matter.",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003AconstructMetadata\u0028\u0029",
+            "name": "constructMetadata",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_constructMetadata"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003AgetMetadata\u0028\u0029",
+            "name": "getMetadata",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getMetadata"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003AgetMetaProperties\u0028\u0029",
+            "name": "getMetaProperties",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getMetaProperties"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003AparseFrontMatterMetadata\u0028\u0029",
+            "name": "parseFrontMatterMetadata",
+            "summary": "Generate\u0020metadata\u0020from\u0020the\u0020front\u0020matter\u0020that\u0020can\u0020be\u0020used\u0020in\u0020standard\u0020\u003Cmeta\u003E\u0020tags.",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_parseFrontMatterMetadata"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003AmakeOpenGraphPropertiesForArticle\u0028\u0029",
+            "name": "makeOpenGraphPropertiesForArticle",
+            "summary": "Generate\u0020opengraph\u0020metadata\u0020from\u0020front\u0020matter\u0020for\u0020an\u0020og\u003Aarticle\u0020such\u0020as\u0020a\u0020blog\u0020post.",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_makeOpenGraphPropertiesForArticle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003A\u0024metadata",
+            "name": "metadata",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#property_metadata"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasAuthor",
             "name": "HasAuthor",
             "summary": "Handle\u0020logic\u0020for\u0020Page\u0020models\u0020that\u0020have\u0020an\u0020Author.",
@@ -786,40 +821,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-HasFeaturedImage.html#property_image"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata",
-            "name": "HasMetadata",
-            "summary": "Handle\u0020logic\u0020for\u0020Page\u0020models\u0020that\u0020have\u0020Metadata.",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AconstructMetadata\u0028\u0029",
-            "name": "constructMetadata",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata",
+            "name": "HasPageMetadata",
             "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_constructMetadata"
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AgetMetadata\u0028\u0029",
-            "name": "getMetadata",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AgetCanonicalUrl\u0028\u0029",
+            "name": "getCanonicalUrl",
             "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_getMetadata"
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_getCanonicalUrl"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AgetMetaProperties\u0028\u0029",
-            "name": "getMetaProperties",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AgetDynamicMetadata\u0028\u0029",
+            "name": "getDynamicMetadata",
             "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_getMetaProperties"
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_getDynamicMetadata"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AmakeMetadata\u0028\u0029",
-            "name": "makeMetadata",
-            "summary": "Generate\u0020metadata\u0020from\u0020the\u0020front\u0020matter\u0020that\u0020can\u0020be\u0020used\u0020in\u0020standard\u0020\u003Cmeta\u003E\u0020tags.",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetadata"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003AmakeMetaProperties\u0028\u0029",
-            "name": "makeMetaProperties",
-            "summary": "Generate\u0020metadata\u0020from\u0020the\u0020front\u0020matter\u0020that\u0020can\u0020be\u0020used\u0020for\u0020og\u003Atype\u0020\u003Cmeta\u003E\u0020tags.",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetaProperties"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Concerns\\HasMetadata\u003A\u003A\u0024metadata",
-            "name": "metadata",
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003ArenderPageMetadata\u0028\u0029",
+            "name": "renderPageMetadata",
             "summary": "",
-            "url": "classes/Hyde-Framework-Concerns-HasMetadata.html#property_metadata"
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_renderPageMetadata"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AcanUseCanonicalUrl\u0028\u0029",
+            "name": "canUseCanonicalUrl",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_canUseCanonicalUrl"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents",
             "name": "HasTableOfContents",
@@ -1060,6 +1085,11 @@ Search.appendIndex(
             "name": "AbstractPage",
             "summary": "To\u0020ensure\u0020compatability\u0020with\u0020the\u0020Hyde\u0020Framework,\nall\u0020Page\u0020Models\u0020must\u0020extend\u0020this\u0020class.",
             "url": "classes/Hyde-Framework-Contracts-AbstractPage.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\AbstractPage\u003A\u003AgetCurrentPagePath\u0028\u0029",
+            "name": "getCurrentPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Contracts-AbstractPage.html#method_getCurrentPagePath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\AbstractPage\u003A\u003A\u0024sourceDirectory",
             "name": "sourceDirectory",
@@ -1511,6 +1541,11 @@ Search.appendIndex(
             "summary": "Since\u0020this\u0020model\u0020also\u0020acts\u0020as\u0020a\u0020Blade\u0020View\u0020compiler,\nwe\u0020implement\u0020the\u0020get\u0020method\u0020for\u0020compatability.",
             "url": "classes/Hyde-Framework-Models-BladePage.html#method_get"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\BladePage\u003A\u003AgetCurrentPagePath\u0028\u0029",
+            "name": "getCurrentPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-BladePage.html#method_getCurrentPagePath"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Models\\BladePage\u003A\u003A\u0024view",
             "name": "view",
             "summary": "The\u0020name\u0020of\u0020the\u0020Blade\u0020View\u0020to\u0020compile.",
@@ -1575,6 +1610,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "Construct\u0020the\u0020class.",
             "url": "classes/Hyde-Framework-Models-DocumentationPage.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\DocumentationPage\u003A\u003AgetCurrentPagePath\u0028\u0029",
+            "name": "getCurrentPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-DocumentationPage.html#method_getCurrentPagePath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\DocumentationPage\u003A\u003A\u0024sourceDirectory",
             "name": "sourceDirectory",
@@ -1805,6 +1845,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "Construct\u0020the\u0020class.",
             "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003AgetCurrentPagePath\u0028\u0029",
+            "name": "getCurrentPagePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method_getCurrentPagePath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003A\u0024category",
             "name": "category",

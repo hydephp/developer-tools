@@ -96,20 +96,18 @@
 
     <article class="phpdocumentor-element -trait">
         <h2 class="phpdocumentor-content__title">
-    HasMetadata
+    GeneratesPageMetadata
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Handle logic for Page models that have Metadata.</p>
+            <p class="phpdocumentor-summary">Generates metadata for page models that have front matter.</p>
 
-    <section class="phpdocumentor-description"><p>Metadata is used to create meta SEO tags.</p>
-</section>
 
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -129,7 +127,7 @@
                     <span class="phpdocumentor-tag__name">see</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Tests\Feature\Concerns\HasMetadataTest">HasMetadataTest</abbr></span>
+                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Tests\Feature\Concerns\GeneratesPageMetadataTest">GeneratesPageMetadataTest</abbr></span>
                                         
                                              
                                     </dd>
@@ -165,46 +163,46 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#property_metadata">$metadata</a>
+    <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#property_metadata">$metadata</a>
     <span>
                         &nbsp;: <a href="classes/Hyde-Framework-Models-Metadata.html"><abbr title="\Hyde\Framework\Models\Metadata">Metadata</abbr></a>|null            </span>
 </dt>
 <dd></dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_constructMetadata">constructMetadata()</a>
+    <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_constructMetadata">constructMetadata()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_getMetadata">getMetadata()</a>
+    <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getMetadata">getMetadata()</a>
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_getMetaProperties">getMetaProperties()</a>
+    <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getMetaProperties">getMetaProperties()</a>
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetadata">makeMetadata()</a>
+    <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_makeOpenGraphPropertiesForArticle">makeOpenGraphPropertiesForArticle()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Generate opengraph metadata from front matter for an og:article such as a blog post.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_parseFrontMatterMetadata">parseFrontMatterMetadata()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Generate metadata from the front matter that can be used in standard &lt;meta&gt; tags.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetaProperties">makeMetaProperties()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Generate metadata from the front matter that can be used for og:type &lt;meta&gt; tags.</dd>
 
         </dl>
 
@@ -214,7 +212,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -225,14 +223,14 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_metadata">
         $metadata
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#property_metadata" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#property_metadata" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -255,7 +253,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -265,12 +263,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_constructMetadata">
         constructMetadata()
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_constructMetadata" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_constructMetadata" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -298,10 +296,10 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getMetadata">
         getMetadata()
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_getMetadata" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getMetadata" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">31</span>
 
@@ -331,10 +329,10 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getMetaProperties">
         getMetaProperties()
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_getMetaProperties" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getMetaProperties" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">41</span>
 
@@ -360,43 +358,28 @@
         class="phpdocumentor-element
             -method
             -protected
-            -deprecated                                            "
+                                                        "
 >
-    <h4 class="phpdocumentor-element__name" id="method_makeMetadata">
-        makeMetadata()
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetadata" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_makeOpenGraphPropertiesForArticle">
+        makeOpenGraphPropertiesForArticle()
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_makeOpenGraphPropertiesForArticle" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Generate metadata from the front matter that can be used in standard &lt;meta&gt; tags.</p>
+        <p class="phpdocumentor-summary">Generate opengraph metadata from front matter for an og:article such as a blog post.</p>
 
-    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
+    <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">makeMetadata</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">makeOpenGraphPropertiesForArticle</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">deprecated</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Will be refactored to parseFrontMatterMetadata</p>
-</section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
@@ -408,45 +391,30 @@
         class="phpdocumentor-element
             -method
             -protected
-            -deprecated                                            "
+                                                        "
 >
-    <h4 class="phpdocumentor-element__name" id="method_makeMetaProperties">
-        makeMetaProperties()
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#method_makeMetaProperties" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_parseFrontMatterMetadata">
+        parseFrontMatterMetadata()
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_parseFrontMatterMetadata" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/HasMetadata.php"><a href="files/framework-src-concerns-hasmetadata.html"><abbr title="framework/src/Concerns/HasMetadata.php">HasMetadata.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/GeneratesPageMetadata.php"><a href="files/framework-src-concerns-generatespagemetadata.html"><abbr title="framework/src/Concerns/GeneratesPageMetadata.php">GeneratesPageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Generate metadata from the front matter that can be used for og:type &lt;meta&gt; tags.</p>
+        <p class="phpdocumentor-summary">Generate metadata from the front matter that can be used in standard &lt;meta&gt; tags.</p>
 
-    <code class="phpdocumentor-code phpdocumentor-signature -deprecated">
+    <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">makeMetaProperties</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">parseFrontMatterMetadata</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"><p>Note that this currently assumes that the object using it is a Blog Post.</p>
+        <section class="phpdocumentor-description"><p>This helper is page type agnostic and works with any kind of model having front matter.</p>
 </section>
 
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">deprecated</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Will be refactored to parseFrontMatterMetadata</p>
-</section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
@@ -532,7 +500,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Hyde-Framework-Concerns-HasMetadata.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
