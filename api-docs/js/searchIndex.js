@@ -706,6 +706,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#property_metadata"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003A\u0024properties",
+            "name": "properties",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#property_properties"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasAuthor",
             "name": "HasAuthor",
             "summary": "Handle\u0020logic\u0020for\u0020Page\u0020models\u0020that\u0020have\u0020an\u0020Author.",
@@ -1755,36 +1760,6 @@ Search.appendIndex(
             "name": "parserClass",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-MarkdownPost.html#property_parserClass"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Models\\Metadata",
-            "name": "Metadata",
-            "summary": "Metadata\u0020class\u0020for\u0020storing\u0020metadata\u0020about\u0020a\u0020model.",
-            "url": "classes/Hyde-Framework-Models-Metadata.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Models\\Metadata\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Models-Metadata.html#method___construct"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Models\\Metadata\u003A\u003Aadd\u0028\u0029",
-            "name": "add",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Models-Metadata.html#method_add"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Models\\Metadata\u003A\u003AaddProperty\u0028\u0029",
-            "name": "addProperty",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Models-Metadata.html#method_addProperty"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Models\\Metadata\u003A\u003A\u0024metadata",
-            "name": "metadata",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Models-Metadata.html#property_metadata"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Models\\Metadata\u003A\u003A\u0024properties",
-            "name": "properties",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Models-Metadata.html#property_properties"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Parsers\\DocumentationPageParser",
             "name": "DocumentationPageParser",
