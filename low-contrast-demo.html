@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>HydePHP Canary - Low Contrast Test</title>
+
+		<meta name="robots" content="noindex, nofollow" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hydephp/hydefront@v1.8/dist/hyde.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hydephp/hydefront@v1.8/dist/app.css" />
+		<script defer src="https://cdn.jsdelivr.net/gh/hydephp/hydefront@v1.8/dist/hyde.js"></script>
+
+		<script>
+			if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark'); } else { document.documentElement.classList.remove('dark') }
+		</script>
+
+		<script>
+			// Set low contrast theme to true if it is not set for demo purposes
+			if (!('low-contrast' in localStorage)) {
+				localStorage.setItem('low-contrast', true);
+			}
+		</script>
+	</head>
+
+	<body id="lagrafo-app" class="bg-white dark:bg-gray-900">
+		<a href="#content" id="skip-to-content">Skip to content</a>
+
+		<script>
+			document.body.classList.add('js-enabled');
+		</script>
+
+		<nav id="mobile-navigation">
+			<strong class="mr-auto">
+				<a href="#docs/index.html">
+					HydePHP Canary Docs
+				</a>
+			</strong>
+			<button class="theme-toggle-button flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200" title="Toggle theme">
+				<span class="sr-only">Toggle dark theme</span>
+				<figure class="theme-icon" role="presentation"></figure>
+			</button>
+			<button id="sidebar-toggle" title="Toggle sidebar" aria-label="Toggle sidebar navigation menu">
+				<span class="icon-bar" role="presentation"></span>
+				<span class="icon-bar" role="presentation"></span>
+				<span class="icon-bar" role="presentation"></span>
+				<span class="icon-bar" role="presentation"></span>
+			</button>
+		</nav>
+		<aside id="sidebar">
+			<header id="sidebar-header">
+				<div id="sidebar-brand">
+					<strong>
+						<a href="#docs/index.html">
+							HydePHP Canary Docs
+						</a>
+					</strong>
+					<button class="theme-toggle-button flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200" title="Toggle theme">
+						<span class="sr-only">Toggle dark theme</span>
+						<figure class="theme-icon" role="presentation"></figure>
+					</button>
+				</div>
+			</header>
+			<nav id="sidebar-navigation">
+				<ul id="sidebar-navigation-menu" role="list">
+					<li class="sidebar-navigation-item">
+						<a href="#headings.html">Headings</a>
+					</li>
+					<li class="sidebar-navigation-item">
+						<a href="#page-1.html">Page 1</a>
+					</li>
+					<li class="sidebar-navigation-item">
+						<a href="#page-2.html">Page 2</a>
+					</li>
+					<li class="sidebar-navigation-item">
+						<a href="#page-3.html">Page 3</a>
+					</li>
+					<li class="sidebar-navigation-item">
+						<a href="#page-4.html">Page 4</a>
+					</li>
+					<li class="sidebar-navigation-item">
+						<a href="#page-5.html">Page 5</a>
+					</li>
+				</ul>
+			</nav>
+			<footer id="sidebar-footer">
+				<p>
+					<a href="#index.html">Back to home page</a>
+				</p>
+			</footer>
+		</aside>
+		<main id="content">
+			<article id="document" itemscope itemtype="https://schema.org/Article" class="mx-auto lg:ml-8 prose dark:prose-invert max-w-3xl">
+				<section id="document-main-content" itemprop="articleBody">
+					<h1><a id="low-contrast-test" href="#low-contrast-test" class="heading-permalink" aria-hidden="true" title="Permalink"></a>Low Contrast Test</h1>
+					<p>Welcome to this test demo of a low contrast filter!</p>
+					<p>For convenience, the setting is set to <code>true</code> by default for this demo.</p>
+					<p>You can change theme settings in the accessibility menu <a href="javascript:openA11yMenu();">Click to open menu</a>!</p>
+					<p>
+						Open the accessiblity settings using the keyboard shortcut <code>h+s</code> (stands for <strong>H</strong>yde <strong>S</strong>ettings) which opens a modal where you can toggle the filter, and try a high contrast
+						setting as well.
+					</p>
+					<p>
+						Tip: Try switching between dark and light themes in the sidebar menu!
+					</p>
+
+					<p>Credit for the idea and implementation goes to TiiaAurora <a href="https://github.com/TiiaAurora/low-contrast-example">https://github.com/TiiaAurora/low-contrast-example</a>.</p>
+					<p>Below you'll see some demo content to fill out the page.</p>
+					<hr />
+					<h2><a id="markdown-content" href="#markdown-content" class="heading-permalink" aria-hidden="true" title="Permalink"></a>Markdown content</h2>
+					<p>Paragraphs are cool and can have <strong>bold</strong>, <em>italic</em> and <a href="https://laravel.com">links</a>. And can use <code>inline code</code> too.</p>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt unde, eum labore architecto fugiat hic quas perferendis dicta corrupti velit odit necessitatibus? Culpa eligendi incidunt quis architecto vitae odit
+						delectus!
+					</p>
+					<p><img src="https://laravel.com/img/logomark.min.svg" alt="images" /></p>
+					<ol>
+						<li>List item 1</li>
+						<li>List item 2</li>
+						<li>List item 3</li>
+					</ol>
+					<ul>
+						<li>List item 1</li>
+						<li>List item 2</li>
+						<li>List item 3</li>
+					</ul>
+					<blockquote>
+						<p>Blockquote</p>
+					</blockquote>
+
+					<!-- Syntax highlighted by torchlight.dev -->
+					<pre
+						style="background: none;"
+					><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">composer</span> <span style="color: #C3E88D;">create-project hyde/hyde</span> <span style="color: #CCCCCC">--stability=dev</span></code></pre>
+
+					<h2><a id="headings-show-up-in-the-sidebar" href="#headings-show-up-in-the-sidebar" class="heading-permalink" aria-hidden="true" title="Permalink"></a>Headings show up in the sidebar</h2>
+					<p>And they have smooth scrolling and support up to 4 levels of nesting by default</p>
+					<p>Try it out on the <a href="#headings.html">headings</a> page.</p>
+				</section>
+			</article>
+		</main>
+
+		<!-- Hyde Accessibility Helpers (Alpha/Dev) -->
+		<dialog id="a11yMenu">
+			<h2>Accessibility Menu</h2>
+			<form method="dialog" style="text-align: center; margin-top: 1rem;">
+				<fieldset>
+					<label for="low-contrast-mode">
+						<input type="checkbox" id="low-contrast-mode" name="low-contrast-mode" />
+						<span>Low Contrast Mode</span>
+					</label>
+				</fieldset>
+				<fieldset>
+					<label for="high-contrast-mode">
+						<input type="checkbox" id="high-contrast-mode" name="high-contrast-mode" />
+						<span>High Contrast Mode</span>
+					</label>
+				</fieldset>
+				<button style="margin-top: 1rem;">Save and Close</button>
+			</form>
+		</dialog>
+
+		<script>
+			// Register keyboard shortcut for when both `h` and `s` keys are pressed at the same time
+			let lastKeyPressed = null;
+			document.addEventListener('keydown', function(e) {
+				if(e.keyCode == 72 || e.keyCode == 83) {
+					if(e.keyCode == 83 && lastKeyPressed == 72) {
+						openA11yMenu();
+					}
+					lastKeyPressed = e.keyCode;
+				}
+			});
+
+			// On esc close a11y menu if open
+			document.addEventListener('keyup', function(e) {
+				if(e.keyCode == 27) {
+					closeA11yMenu();
+				}
+			});
+
+			// Open the accessibility menu popup
+			let a11yMenu = document.getElementById('a11yMenu');
+			function openA11yMenu() {
+
+				// add the open attribute to a11ymenu
+				a11yMenu.setAttribute('open', '');
+
+				// add the focus to the first input
+				a11yMenu.querySelector('input').focus();
+			}
+
+			// Close the accessibility menu popup
+			function closeA11yMenu() {
+				// remove the open attribute from a11ymenu
+				a11yMenu.removeAttribute('open');
+			}
+
+			// Low contrast mode
+			let lowContrastModeInput = document.getElementById('low-contrast-mode');
+
+			// Register onchange event for low contrast mode checkbox
+			lowContrastModeInput.addEventListener('change', function(e) {
+				if(lowContrastModeInput.checked) {
+					document.documentElement.classList.add('low-contrast');
+					localStorage.setItem('low-contrast', true);
+				} else {
+					document.documentElement.classList.remove('low-contrast');
+					localStorage.setItem('low-contrast', false);
+				}
+			});
+
+			// High contrast mode
+			let highContrastModeInput = document.getElementById('high-contrast-mode');
+
+			// Register onchange event for high contrast mode checkbox
+			highContrastModeInput.addEventListener('change', function(e) {
+				if(highContrastModeInput.checked) {
+					document.documentElement.classList.add('high-contrast');
+					localStorage.setItem('high-contrast', true);
+				} else {
+					document.documentElement.classList.remove('high-contrast');
+					localStorage.setItem('high-contrast', false);
+				}
+			});
+
+
+			// Remember the preferences (might need to be handled in head to prevent FOUC)
+
+			// Check if low contrast mode is enabled
+			if(localStorage.getItem('low-contrast') == 'true') {
+				lowContrastModeInput.checked = true;
+				document.documentElement.classList.add('low-contrast');
+			}
+
+			// Check if high contrast mode is enabled
+			if(localStorage.getItem('high-contrast') == 'true') {
+				highContrastModeInput.checked = true;
+				document.documentElement.classList.add('high-contrast');
+			}
+		</script>
+
+		<style>
+			/* Center the dialog on the screen */
+			#a11yMenu {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
+				max-width: 500px;
+				padding: 1rem;
+				background: #fff;
+				border-radius: 0.5rem;
+				box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+				overflow: hidden;
+			}
+			#a11yMenu h2 {
+				margin-bottom: 1rem;
+				font-size: 1.5rem;
+				font-weight: normal;
+				text-align: center;
+			}
+
+			/* Low contrast filter by Tiia https://github.com/TiiaAurora/low-contrast-example (with added sepia) */
+			.low-contrast {
+				filter: contrast(70%) saturate(70%) sepia(30%);
+			}
+
+			.high-contrast {
+				filter: contrast(150%) saturate(110%);
+			}
+		</style>
+	</body>
+</html>
