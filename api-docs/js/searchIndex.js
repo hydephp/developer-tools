@@ -856,6 +856,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_canUseCanonicalUrl"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AcanUseRssFeedLink\u0028\u0029",
+            "name": "canUseRssFeedLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_canUseRssFeedLink"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents",
             "name": "HasTableOfContents",
             "summary": "Generate\u0020a\u0020Table\u0020of\u0020Contents\u0020HTML\u0020string\u0020from\u0020a\u0020Markdown\u0020document\u0020body.",
@@ -1455,6 +1460,11 @@ Search.appendIndex(
             "name": "view",
             "summary": "The\u0020name\u0020of\u0020the\u0020Blade\u0020View\u0020to\u0020compile.",
             "url": "classes/Hyde-Framework-Models-BladePage.html#property_view"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\BladePage\u003A\u003A\u0024slug",
+            "name": "slug",
+            "summary": "The\u0020page\u0020slug\u0020for\u0020compatibility",
+            "url": "classes/Hyde-Framework-Models-BladePage.html#property_slug"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\BladePage\u003A\u003A\u0024sourceDirectory",
             "name": "sourceDirectory",
@@ -2281,16 +2291,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_addAdditionalChannelData"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetTitle\u0028\u0029",
-            "name": "getTitle",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getTitle"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetLink\u0028\u0029",
-            "name": "getLink",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getLink"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
             "summary": "",
@@ -2300,6 +2300,16 @@ Search.appendIndex(
             "name": "xmlEscape",
             "summary": "",
             "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_xmlEscape"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetTitle\u0028\u0029",
+            "name": "getTitle",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getTitle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetLink\u0028\u0029",
+            "name": "getLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getLink"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetDefaultOutputFilename\u0028\u0029",
             "name": "getDefaultOutputFilename",
