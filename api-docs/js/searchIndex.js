@@ -1463,7 +1463,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\BladePage\u003A\u003A\u0024slug",
             "name": "slug",
-            "summary": "The\u0020page\u0020slug\u0020for\u0020compatibility",
+            "summary": "The\u0020page\u0020slug\u0020for\u0020compatibility.",
             "url": "classes/Hyde-Framework-Models-BladePage.html#property_slug"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\BladePage\u003A\u003A\u0024sourceDirectory",
