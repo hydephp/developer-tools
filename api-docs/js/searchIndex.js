@@ -331,6 +331,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_runNodeCommand"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003AgetExecutionTimeInMs\u0028\u0029",
+            "name": "getExecutionTimeInMs",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_getExecutionTimeInMs"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003A\u0024signature",
             "name": "signature",
             "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
@@ -1406,6 +1411,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Models-Author.html#method___construct"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\Author\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "Get\u0020the\u0020author\u0027s\u0020name.",
+            "url": "classes/Hyde-Framework-Models-Author.html#method_getName"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author\u003A\u003A\u0024username",
             "name": "username",
             "summary": "The\u0020username\u0020\u0028slug\u0029\u0020of\u0020the\u0020author.",
@@ -1745,6 +1755,16 @@ Search.appendIndex(
             "name": "getCurrentPagePath",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method_getCurrentPagePath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003AgetCanonicalLink\u0028\u0029",
+            "name": "getCanonicalLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method_getCanonicalLink"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003AgetPostDescription\u0028\u0029",
+            "name": "getPostDescription",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method_getPostDescription"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003A\u0024category",
             "name": "category",
@@ -2220,6 +2240,86 @@ Search.appendIndex(
             "name": "builder",
             "summary": "The\u0020page\u0020builder\u0020instance.",
             "url": "classes/Hyde-Framework-Services-RebuildService.html#property_builder"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService",
+            "name": "RssFeedService",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003Agenerate\u0028\u0029",
+            "name": "generate",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_generate"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetXML\u0028\u0029",
+            "name": "getXML",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getXML"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AaddItem\u0028\u0029",
+            "name": "addItem",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_addItem"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AaddAdditionalItemData\u0028\u0029",
+            "name": "addAdditionalItemData",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_addAdditionalItemData"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AaddInitialChannelItems\u0028\u0029",
+            "name": "addInitialChannelItems",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_addInitialChannelItems"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AaddAdditionalChannelData\u0028\u0029",
+            "name": "addAdditionalChannelData",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_addAdditionalChannelData"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetTitle\u0028\u0029",
+            "name": "getTitle",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getTitle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetLink\u0028\u0029",
+            "name": "getLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getLink"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getDescription"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AxmlEscape\u0028\u0029",
+            "name": "xmlEscape",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_xmlEscape"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgetDefaultOutputFilename\u0028\u0029",
+            "name": "getDefaultOutputFilename",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_getDefaultOutputFilename"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AgenerateFeed\u0028\u0029",
+            "name": "generateFeed",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_generateFeed"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003AcanGenerateFeed\u0028\u0029",
+            "name": "canGenerateFeed",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#method_canGenerateFeed"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\RssFeedService\u003A\u003A\u0024feed",
+            "name": "feed",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-RssFeedService.html#property_feed"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\SitemapService",
             "name": "SitemapService",
