@@ -316,15 +316,15 @@ Search.appendIndex(
             "summary": "Execute\u0020the\u0020console\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_handle"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003ArunPostBuildActions\u0028\u0029",
+            "name": "runPostBuildActions",
+            "summary": "Run\u0020any\u0020post\u002Dbuild\u0020actions.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_runPostBuildActions"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003Apurge\u0028\u0029",
             "name": "purge",
             "summary": "Clear\u0020the\u0020entire\u0020output\u0020directory\u0020before\u0020running\u0020the\u0020build.",
             "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_purge"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003ApostBuildActions\u0028\u0029",
-            "name": "postBuildActions",
-            "summary": "Run\u0020any\u0020post\u002Dbuild\u0020actions.",
-            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_postBuildActions"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003ArunNodeCommand\u0028\u0029",
             "name": "runNodeCommand",
@@ -855,6 +855,11 @@ Search.appendIndex(
             "name": "canUseCanonicalUrl",
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_canUseCanonicalUrl"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AcanUseSitemapLink\u0028\u0029",
+            "name": "canUseSitemapLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_canUseSitemapLink"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AcanUseRssFeedLink\u0028\u0029",
             "name": "canUseRssFeedLink",
