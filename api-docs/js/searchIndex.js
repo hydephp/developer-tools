@@ -171,6 +171,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#property_force"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject",
+            "name": "FindsContentLengthForImageObject",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "Execute\u0020the\u0020action.",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#method_execute"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003AisImageStoredRemotely\u0028\u0029",
+            "name": "isImageStoredRemotely",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#method_isImageStoredRemotely"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003AfetchRemoteImageInformation\u0028\u0029",
+            "name": "fetchRemoteImageInformation",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#method_fetchRemoteImageInformation"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003AfetchLocalImageInformation\u0028\u0029",
+            "name": "fetchLocalImageInformation",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#method_fetchLocalImageInformation"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003Awrite\u0028\u0029",
+            "name": "write",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#method_write"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003A\u0024image",
+            "name": "image",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#property_image"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\FindsContentLengthForImageObject\u003A\u003A\u0024output",
+            "name": "output",
+            "summary": "Testing\u0020adding\u0020console\u0020debug\u0020output.",
+            "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#property_output"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesNavigationMenu",
             "name": "GeneratesNavigationMenu",
             "summary": "Generate\u0020the\u0020dynamic\u0020navigation\u0020menu.",
@@ -306,6 +351,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Actions-PublishesHydeViews.html#property_selected"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildRssFeedCommand",
+            "name": "HydeBuildRssFeedCommand",
+            "summary": "Hyde\u0020Command\u0020to\u0020run\u0020the\u0020Build\u0020Process\u0020for\u0020the\u0020RSS\u0020Feed.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildRssFeedCommand\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "Execute\u0020the\u0020console\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildRssFeedCommand\u003A\u003ArunPreflightCheck\u0028\u0029",
+            "name": "runPreflightCheck",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html#method_runPreflightCheck"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildRssFeedCommand\u003A\u003AgetExecutionTimeInMs\u0028\u0029",
+            "name": "getExecutionTimeInMs",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html#method_getExecutionTimeInMs"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildRssFeedCommand\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html#property_signature"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildRssFeedCommand\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "The\u0020description\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html#property_description"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand",
+            "name": "HydeBuildSitemapCommand",
+            "summary": "Hyde\u0020Command\u0020to\u0020run\u0020the\u0020Build\u0020Process\u0020for\u0020the\u0020Sitemap.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSitemapCommand.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "Execute\u0020the\u0020console\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSitemapCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand\u003A\u003ArunPreflightCheck\u0028\u0029",
+            "name": "runPreflightCheck",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSitemapCommand.html#method_runPreflightCheck"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand\u003A\u003AgetExecutionTimeInMs\u0028\u0029",
+            "name": "getExecutionTimeInMs",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSitemapCommand.html#method_getExecutionTimeInMs"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSitemapCommand.html#property_signature"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "The\u0020description\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSitemapCommand.html#property_description"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand",
             "name": "HydeBuildStaticSiteCommand",
             "summary": "Hyde\u0020Command\u0020to\u0020run\u0020the\u0020Build\u0020Process.",
@@ -330,11 +435,6 @@ Search.appendIndex(
             "name": "runNodeCommand",
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_runNodeCommand"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003AgetExecutionTimeInMs\u0028\u0029",
-            "name": "getExecutionTimeInMs",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_getExecutionTimeInMs"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003A\u0024signature",
             "name": "signature",
@@ -1635,6 +1735,11 @@ Search.appendIndex(
             "name": "getSource",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-Image.html#method_getSource"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\Image\u003A\u003AgetContentLength\u0028\u0029",
+            "name": "getContentLength",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-Image.html#method_getContentLength"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Image\u003A\u003AgetImageAuthorAttributionString\u0028\u0029",
             "name": "getImageAuthorAttributionString",
