@@ -2471,6 +2471,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Services-SitemapService.html#method_getLastModDate"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AgetPriority\u0028\u0029",
+            "name": "getPriority",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#method_getPriority"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003AgenerateSitemap\u0028\u0029",
             "name": "generateSitemap",
             "summary": "",
