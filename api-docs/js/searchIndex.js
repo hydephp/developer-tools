@@ -691,6 +691,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydePublishViewsCommand.html#property_selected"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand",
+            "name": "HydeRebuildStaticSiteCommand",
+            "summary": "Hyde\u0020Command\u0020to\u0020build\u0020a\u0020single\u0020static\u0020site\u0020file.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "Execute\u0020the\u0020console\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AsanitizePathString\u0028\u0029",
+            "name": "sanitizePathString",
+            "summary": "Perform\u0020a\u0020basic\u0020sanitation\u0020to\u0020strip\u0020trailing\u0020characters.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_sanitizePathString"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "Validate\u0020the\u0020path\u0020to\u0020catch\u0020common\u0020errors.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_validate"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AhandleException\u0028\u0029",
+            "name": "handleException",
+            "summary": "Output\u0020the\u0020contents\u0020of\u0020an\u0020exception.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_handleException"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003AgetOutputPath\u0028\u0029",
+            "name": "getOutputPath",
+            "summary": "Get\u0020the\u0020output\u0020path\u0020for\u0020the\u0020given\u0020source\u0020file\u0020path.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#method_getOutputPath"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_signature"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "The\u0020description\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_description"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeRebuildStaticSiteCommand\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "The\u0020source\u0020path.",
+            "url": "classes/Hyde-Framework-Commands-HydeRebuildStaticSiteCommand.html#property_path"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeServeCommand",
             "name": "HydeServeCommand",
             "summary": "Start\u0020the\u0020realtime\u0020compiler\u0020server.",
@@ -968,7 +1013,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents",
             "name": "HasTableOfContents",
-            "summary": "Generate\u0020a\u0020Table\u0020of\u0020Contents\u0020HTML\u0020string\u0020from\u0020a\u0020Markdown\u0020document\u0020body.",
+            "summary": "Generate\u0020Table\u0020of\u0020Contents\u0020as\u0020HTML\u0020from\u0020a\u0020Markdown\u0020document\u0020body.",
             "url": "classes/Hyde-Framework-Concerns-HasTableOfContents.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents\u003A\u003AconstructTableOfContents\u0028\u0029",
@@ -1193,7 +1238,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\ValidatesExistence",
             "name": "ValidatesExistence",
-            "summary": "Validate\u0020the\u0020existance\u0020of\u0020a\u0020Page\u0020model\u0027s\u0020source\u0020file.",
+            "summary": "Validate\u0020the\u0020existence\u0020of\u0020a\u0020Page\u0020model\u0027s\u0020source\u0020file.",
             "url": "classes/Hyde-Framework-Concerns-ValidatesExistence.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\ValidatesExistence\u003A\u003AvalidateExistence\u0028\u0029",
@@ -1225,6 +1270,11 @@ Search.appendIndex(
             "name": "parserClass",
             "summary": "",
             "url": "classes/Hyde-Framework-Contracts-AbstractPage.html#property_parserClass"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\AbstractPage\u003A\u003A\u0024slug",
+            "name": "slug",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Contracts-AbstractPage.html#property_slug"
         },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\AbstractPageParser",
             "name": "AbstractPageParser",
@@ -2490,6 +2540,11 @@ Search.appendIndex(
             "name": "xmlElement",
             "summary": "",
             "url": "classes/Hyde-Framework-Services-SitemapService.html#property_xmlElement"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\SitemapService\u003A\u003A\u0024time_start",
+            "name": "time_start",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-SitemapService.html#property_time_start"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\StarterFileService",
             "name": "StarterFileService",
