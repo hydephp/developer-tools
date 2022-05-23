@@ -112,14 +112,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Models/Author.php"><a href="files/framework-src-models-author.html"><abbr title="framework/src/Models/Author.php">Author.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">8</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">The Post Author Object Model.</p>
 
-    <section class="phpdocumentor-description"><p>The Author is parsed from the config/authors.yml file using the AuthorService class</p>
-</section>
 
 
 
@@ -146,7 +144,7 @@
     <span>
                         &nbsp;: string            </span>
 </dt>
-<dd>The username (slug) of the author.</dd>
+<dd>The username of the author.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/Hyde-Framework-Models-Author.html#property_website">$website</a>
@@ -160,14 +158,14 @@
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
+<dd>Construct a new Author object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Hyde-Framework-Models-Author.html#method_getName">getName()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
-<dd>Get the author&#039;s name.</dd>
+<dd>Get the author&#039;s preferred name.</dd>
 
         </dl>
 
@@ -197,7 +195,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Models/Author.php"><a href="files/framework-src-models-author.html"><abbr title="framework/src/Models/Author.php">Author.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -230,11 +228,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Models/Author.php"><a href="files/framework-src-models-author.html"><abbr title="framework/src/Models/Author.php">Author.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">The username (slug) of the author.</p>
+        <p class="phpdocumentor-summary">The username of the author.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -242,7 +240,9 @@
     <span class="phpdocumentor-signature__name">$username</span>
     </code>
 
-    
+        <section class="phpdocumentor-description"><p>This is the key used to find authors in the config.</p>
+</section>
+
     
     
 
@@ -263,7 +263,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Models/Author.php"><a href="files/framework-src-models-author.html"><abbr title="framework/src/Models/Author.php">Author.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -303,16 +303,20 @@ or a hyperlink to more posts by the author.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Models/Author.php"><a href="files/framework-src-models-author.html"><abbr title="framework/src/Models/Author.php">Author.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Construct a new Author object.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$username</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+        <section class="phpdocumentor-description"><p>Parameters are supplied through an array to make it
+easy to load data from Markdown post front matter.</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -352,11 +356,11 @@ or a hyperlink to more posts by the author.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Models/Author.php"><a href="files/framework-src-models-author.html"><abbr title="framework/src/Models/Author.php">Author.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Get the author&#039;s name.</p>
+        <p class="phpdocumentor-summary">Get the author&#039;s preferred name.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>

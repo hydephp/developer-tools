@@ -851,6 +851,11 @@ Search.appendIndex(
             "summary": "Generate\u0020opengraph\u0020metadata\u0020from\u0020front\u0020matter\u0020for\u0020an\u0020og\u003Aarticle\u0020such\u0020as\u0020a\u0020blog\u0020post.",
             "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_makeOpenGraphPropertiesForArticle"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003AgetAuthorName\u0028\u0029",
+            "name": "getAuthorName",
+            "summary": "Parse\u0020the\u0020author\u0020name\u0020string\u0020from\u0020front\u0020matter\u0020with\u0020support\u0020for\u0020both\u0020flat\u0020and\u0020array\u0020notation.",
+            "url": "classes/Hyde-Framework-Concerns-GeneratesPageMetadata.html#method_getAuthorName"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata\u003A\u003A\u0024metadata",
             "name": "metadata",
             "summary": "",
@@ -1386,6 +1391,26 @@ Search.appendIndex(
             "summary": "Get\u0020the\u0020parsed\u0020page\u0020object.",
             "url": "classes/Hyde-Framework-Contracts-PageParserContract.html#method_get"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Author",
+            "name": "Author",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Author.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Author\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Author.html#method_create"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Author\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Author.html#method_all"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Author\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Author.html#method_get"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Features",
             "name": "Features",
             "summary": "Allows\u0020features\u0020to\u0020be\u0020enabled\u0020and\u0020disabled\u0020in\u0020a\u0020simple\u0020object\u002Doriented\u0020manner.",
@@ -1455,6 +1480,16 @@ Search.appendIndex(
             "name": "torchlight",
             "summary": "",
             "url": "classes/Hyde-Framework-Helpers-Features.html#method_torchlight"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Image",
+            "name": "Image",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Image.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Image\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Image.html#method_get"
         },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Markdown",
             "name": "Markdown",
@@ -1568,17 +1603,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "Construct\u0020a\u0020new\u0020Author\u0020object.",
             "url": "classes/Hyde-Framework-Models-Author.html#method___construct"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
-            "summary": "Get\u0020the\u0020author\u0027s\u0020name.",
+            "summary": "Get\u0020the\u0020author\u0027s\u0020preferred\u0020name.",
             "url": "classes/Hyde-Framework-Models-Author.html#method_getName"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author\u003A\u003A\u0024username",
             "name": "username",
-            "summary": "The\u0020username\u0020\u0028slug\u0029\u0020of\u0020the\u0020author.",
+            "summary": "The\u0020username\u0020of\u0020the\u0020author.",
             "url": "classes/Hyde-Framework-Models-Author.html#property_username"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Author\u003A\u003A\u0024name",
@@ -2090,56 +2125,6 @@ Search.appendIndex(
             "name": "hasMediaFile",
             "summary": "",
             "url": "classes/Hyde-Framework-Services-AssetService.html#method_hasMediaFile"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService",
-            "name": "AuthorService",
-            "summary": "Contains\u0020service\u0020methods\u0020relating\u0020to\u0020blog\u0020post\u0020authors.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Construct\u0020the\u0020class.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#method___construct"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003ApublishFile\u0028\u0029",
-            "name": "publishFile",
-            "summary": "Returns\u0020the\u0020filepath\u0020of\u0020the\u0020Yaml\u0020file.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#method_publishFile"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003AgetYaml\u0028\u0029",
-            "name": "getYaml",
-            "summary": "Parse\u0020the\u0020Yaml\u0020file.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#method_getYaml"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003AgetAuthors\u0028\u0029",
-            "name": "getAuthors",
-            "summary": "Use\u0020the\u0020Yaml\u0020array\u0020to\u0020parse\u0020and\u0020collect\u0020the\u0020Authors.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#method_getAuthors"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003Afind\u0028\u0029",
-            "name": "find",
-            "summary": "Find\u0020and\u0020retrieve\u0020an\u0020Author\u0020by\u0020their\u0020username.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#method_find"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003AgetAuthorName\u0028\u0029",
-            "name": "getAuthorName",
-            "summary": "Parse\u0020the\u0020author\u0020name\u0020string\u0020from\u0020front\u0020matter\u0020with\u0020support\u0020for\u0020both\u0020flat\u0020and\u0020array\u0020notation.",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#method_getAuthorName"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003A\u0024filepath",
-            "name": "filepath",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#property_filepath"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003A\u0024yaml",
-            "name": "yaml",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#property_yaml"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Services\\AuthorService\u003A\u003A\u0024authors",
-            "name": "authors",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Services-AuthorService.html#property_authors"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\CollectionService",
             "name": "CollectionService",
