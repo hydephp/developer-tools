@@ -123,48 +123,48 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Construct\u0020the\u0020class.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method___construct"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcanSaveFile\u0028\u0029",
             "name": "canSaveFile",
-            "summary": "Check\u0020if\u0020the\u0020file\u0020can\u0020be\u0020saved.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_canSaveFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcreatePage\u0028\u0029",
             "name": "createPage",
-            "summary": "Create\u0020the\u0020page.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createPage"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcreateMarkdownFile\u0028\u0029",
             "name": "createMarkdownFile",
-            "summary": "Create\u0020the\u0020Markdown\u0020file.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createMarkdownFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcreateBladeFile\u0028\u0029",
             "name": "createBladeFile",
-            "summary": "Create\u0020the\u0020Blade\u0020file.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createBladeFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003AcreateDocumentationFile\u0028\u0029",
             "name": "createDocumentationFile",
-            "summary": "Create\u0020the\u0020Documentation\u0020file.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#method_createDocumentationFile"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024title",
             "name": "title",
-            "summary": "The\u0020Page\u0020title.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#property_title"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024slug",
             "name": "slug",
-            "summary": "The\u0020Page\u0020slug.",
+            "summary": "",
             "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#property_slug"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024path",
-            "name": "path",
-            "summary": "The\u0020file\u0020path.",
-            "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#property_path"
+            "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024outputPath",
+            "name": "outputPath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-CreatesNewPageSourceFile.html#property_outputPath"
         },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\CreatesNewPageSourceFile\u003A\u003A\u0024force",
             "name": "force",
@@ -1390,6 +1390,71 @@ Search.appendIndex(
             "name": "get",
             "summary": "Get\u0020the\u0020parsed\u0020page\u0020object.",
             "url": "classes/Hyde-Framework-Contracts-PageParserContract.html#method_get"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\CouldNotParseDateStringException",
+            "name": "CouldNotParseDateStringException",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-CouldNotParseDateStringException.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileConflictException",
+            "name": "FileConflictException",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileConflictException.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileConflictException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileConflictException.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileConflictException\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileConflictException.html#property_message"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileConflictException\u003A\u003A\u0024code",
+            "name": "code",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileConflictException.html#property_code"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileNotFoundException",
+            "name": "FileNotFoundException",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileNotFoundException.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileNotFoundException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileNotFoundException.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileNotFoundException\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileNotFoundException.html#property_message"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\FileNotFoundException\u003A\u003A\u0024code",
+            "name": "code",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-FileNotFoundException.html#property_code"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\UnsupportedPageTypeException",
+            "name": "UnsupportedPageTypeException",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-UnsupportedPageTypeException.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\UnsupportedPageTypeException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-UnsupportedPageTypeException.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\UnsupportedPageTypeException\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-UnsupportedPageTypeException.html#property_message"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions\\UnsupportedPageTypeException\u003A\u003A\u0024code",
+            "name": "code",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Exceptions-UnsupportedPageTypeException.html#property_code"
         },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Author",
             "name": "Author",
@@ -2640,6 +2705,11 @@ Search.appendIndex(
             "name": "Contracts",
             "summary": "",
             "url": "namespaces/hyde-framework-contracts.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Exceptions",
+            "name": "Exceptions",
+            "summary": "",
+            "url": "namespaces/hyde-framework-exceptions.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Helpers",
             "name": "Helpers",
