@@ -461,6 +461,16 @@ Search.appendIndex(
             "summary": "Execute\u0020the\u0020console\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#method_handle"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003AcreateSearchPage\u0028\u0029",
+            "name": "createSearchPage",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#method_createSearchPage"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003AguesstimateGenerationTime\u0028\u0029",
+            "name": "guesstimateGenerationTime",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#method_guesstimateGenerationTime"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003AgetExecutionTimeInMs\u0028\u0029",
             "name": "getExecutionTimeInMs",
             "summary": "",
@@ -1601,6 +1611,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasDocumentationPages"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasDocumentationSearch\u0028\u0029",
+            "name": "hasDocumentationSearch",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_hasDocumentationSearch"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AhasDarkmode\u0028\u0029",
             "name": "hasDarkmode",
             "summary": "",
@@ -1630,6 +1645,11 @@ Search.appendIndex(
             "name": "documentationPages",
             "summary": "",
             "url": "classes/Hyde-Framework-Helpers-Features.html#method_documentationPages"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003AdocumentationSearch\u0028\u0029",
+            "name": "documentationSearch",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-Features.html#method_documentationSearch"
         },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Features\u003A\u003Adarkmode\u0028\u0029",
             "name": "darkmode",
