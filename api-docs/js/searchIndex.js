@@ -216,6 +216,76 @@ Search.appendIndex(
             "summary": "Testing\u0020adding\u0020console\u0020debug\u0020output.",
             "url": "classes/Hyde-Framework-Actions-FindsContentLengthForImageObject.html#property_output"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile",
+            "name": "GeneratesDocumentationSearchIndexFile",
+            "summary": "Generate\u0020a\u0020JSON\u0020file\u0020that\u0020can\u0020be\u0020used\u0020as\u0020a\u0020search\u0020index\u0020for\u0020documentation\u0020pages.",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003Arun\u0028\u0029",
+            "name": "run",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_run"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "Execute\u0020the\u0020action.",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_execute"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003Agenerate\u0028\u0029",
+            "name": "generate",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_generate"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003AgeneratePageObject\u0028\u0029",
+            "name": "generatePageObject",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_generatePageObject"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003AgetSourceFileSlugs\u0028\u0029",
+            "name": "getSourceFileSlugs",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_getSourceFileSlugs"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003AgetObject\u0028\u0029",
+            "name": "getObject",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_getObject"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003AgetJson\u0028\u0029",
+            "name": "getJson",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_getJson"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_save"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003AgetSearchContentForDocument\u0028\u0029",
+            "name": "getSearchContentForDocument",
+            "summary": "There\u0020are\u0020a\u0020few\u0020ways\u0020we\u0020could\u0020go\u0020about\u0020this.\u0020The\u0020goal\u0020is\u0020to\u0020allow\u0020the\u0020user\nto\u0020run\u0020a\u0020free\u002Dtext\u0020search\u0020to\u0020find\u0020relevant\u0020documentation\u0020pages.",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_getSearchContentForDocument"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003AgetDestinationForSlug\u0028\u0029",
+            "name": "getDestinationForSlug",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#method_getDestinationForSlug"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003A\u0024searchIndex",
+            "name": "searchIndex",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#property_searchIndex"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesDocumentationSearchIndexFile\u003A\u003A\u0024filePath",
+            "name": "filePath",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Actions-GeneratesDocumentationSearchIndexFile.html#property_filePath"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Actions\\GeneratesNavigationMenu",
             "name": "GeneratesNavigationMenu",
             "summary": "Generate\u0020the\u0020dynamic\u0020navigation\u0020menu.",
@@ -380,6 +450,31 @@ Search.appendIndex(
             "name": "description",
             "summary": "The\u0020description\u0020of\u0020the\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeBuildRssFeedCommand.html#property_description"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand",
+            "name": "HydeBuildSearchCommand",
+            "summary": "Hyde\u0020Command\u0020to\u0020run\u0020the\u0020Build\u0020Process\u0020for\u0020the\u0020DocumentationSearchIndex.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "Execute\u0020the\u0020console\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#method_handle"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003AgetExecutionTimeInMs\u0028\u0029",
+            "name": "getExecutionTimeInMs",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#method_getExecutionTimeInMs"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003A\u0024signature",
+            "name": "signature",
+            "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#property_signature"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSearchCommand\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "The\u0020description\u0020of\u0020the\u0020command.",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildSearchCommand.html#property_description"
         },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildSitemapCommand",
             "name": "HydeBuildSitemapCommand",
