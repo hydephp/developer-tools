@@ -2381,6 +2381,11 @@ Search.appendIndex(
             "summary": "Get\u0020the\u0020sidebar\u0020object\u0020created\u0020and\u0020managed\u0020by\u0020the\u0020service\u0020instance.",
             "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSidebar"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AgetSortedSidebar\u0028\u0029",
+            "name": "getSortedSidebar",
+            "summary": "Get\u0020the\u0020sorted\u0020sidebar\u0020created\u0020and\u0020managed\u0020by\u0020the\u0020service\u0020instance.",
+            "url": "classes/Hyde-Framework-Services-DocumentationSidebarService.html#method_getSortedSidebar"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\DocumentationSidebarService\u003A\u003AaddItem\u0028\u0029",
             "name": "addItem",
             "summary": "Add\u0020an\u0020item\u0020to\u0020the\u0020sidebar\u0020collection.",
