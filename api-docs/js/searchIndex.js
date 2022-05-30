@@ -1121,6 +1121,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_canUseRssFeedLink"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AhasTwitterTitleInConfig\u0028\u0029",
+            "name": "hasTwitterTitleInConfig",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_hasTwitterTitleInConfig"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\HasPageMetadata\u003A\u003AhasOpenGraphTitleInConfig\u0028\u0029",
+            "name": "hasOpenGraphTitleInConfig",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-HasPageMetadata.html#method_hasOpenGraphTitleInConfig"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\HasTableOfContents",
             "name": "HasTableOfContents",
             "summary": "Generate\u0020Table\u0020of\u0020Contents\u0020as\u0020HTML\u0020from\u0020a\u0020Markdown\u0020document\u0020body.",
