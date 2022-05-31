@@ -2316,6 +2316,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Services-AssetService.html#method_hasMediaFile"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService",
+            "name": "BladeDownService",
+            "summary": "Markdown\u0020Processor\u0020to\u0020render\u0020Laravel\u0020Blade\u0020within\u0020Markdown\u0020files.",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method_process"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method_get"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003Arender\u0028\u0029",
+            "name": "render",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method_render"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003Apreprocess\u0028\u0029",
+            "name": "preprocess",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method_preprocess"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003AlineStartsWithDirective\u0028\u0029",
+            "name": "lineStartsWithDirective",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method_lineStartsWithDirective"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003AprocessLine\u0028\u0029",
+            "name": "processLine",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#method_processLine"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003A\u0024html",
+            "name": "html",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#property_html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003A\u0024output",
+            "name": "output",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#property_output"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\BladeDownService\u003A\u003A\u0024pageData",
+            "name": "pageData",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-BladeDownService.html#property_pageData"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\CollectionService",
             "name": "CollectionService",
             "summary": "Contains\u0020service\u0020methods\u0020to\u0020return\u0020helpful\u0020collections\u0020of\u0020arrays\u0020and\u0020lists.",
@@ -2500,6 +2555,11 @@ Search.appendIndex(
             "name": "setupConverter",
             "summary": "",
             "url": "classes/Hyde-Framework-Services-MarkdownConverterService.html#method_setupConverter"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\MarkdownConverterService\u003A\u003ArunPreprocessing\u0028\u0029",
+            "name": "runPreprocessing",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-MarkdownConverterService.html#method_runPreprocessing"
         },                {
             "fqsen": "\\Hyde\\Framework\\Services\\MarkdownConverterService\u003A\u003ArunPostProcessing\u0028\u0029",
             "name": "runPostProcessing",
