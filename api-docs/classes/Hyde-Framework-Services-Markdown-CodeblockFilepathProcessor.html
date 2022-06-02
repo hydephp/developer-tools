@@ -92,11 +92,12 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde.html">Hyde</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde-framework.html">Framework</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde-framework-services.html">Services</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/hyde-framework-services-markdown.html">Markdown</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    BladeDownService
+    CodeblockFilepathProcessor
 
     
             <div class="phpdocumentor-element__package">
@@ -110,17 +111,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">8</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Markdown Processor to render Laravel Blade within Markdown files.</p>
-
-    <section class="phpdocumentor-description"><p>Works on a line-by-line basis by searching for a line starting with the directive.
-The preprocessor expands the directive to an HTML comment. The post-processor parses it.</p>
-</section>
+        
 
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -129,27 +126,10 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">example:</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>[Blade]: {{ time() }}</p>
-</section>
-
-                                    </dd>
-                            <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">example:</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">see</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Tests\Feature\Services\BladeDownServiceTest">BladeDownServiceTest</abbr></span>
+                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Tests\Feature\Services\Markdown\CodeblockFilepathProcessorTest">CodeblockFilepathProcessorTest</abbr></span>
                                         
                                              
                                     </dd>
@@ -167,70 +147,63 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#property_html">$html</a>
-    <span>
-                        &nbsp;: string            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#property_output">$output</a>
-    <span>
-                        &nbsp;: string            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#property_pageData">$pageData</a>
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#property_patterns">$patterns</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 <dd></dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#property_torchlightKey">$torchlightKey</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method___construct">__construct()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_get">get()</a>
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_preprocess">preprocess()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_preprocess">preprocess()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_process">process()</a>
-    <span>
-                                &nbsp;: self    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_render">render()</a>
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_process">process()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_lineStartsWithDirective">lineStartsWithDirective()</a>
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_lineMatchesPattern">lineMatchesPattern()</a>
     <span>
                                 &nbsp;: bool    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_processLine">processLine()</a>
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_resolveCodeLine">resolveCodeLine()</a>
+    <span>
+                                &nbsp;: string|array&lt;string|int, mixed&gt;|null    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_resolveTemplate">resolveTemplate()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_resolveTorchlightCodeLine">resolveTorchlightCodeLine()</a>
+    <span>
+                                &nbsp;: string|array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_trimHydeDirective">trimHydeDirective()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
@@ -246,34 +219,34 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/Hyde-Framework-Services-BladeDownService.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
             -protected
-                                                        "
+            -static                                            "
 >
-    <h4 class="phpdocumentor-element__name" id="property_html">
-        $html
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#property_html" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_patterns">
+        $patterns
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#property_patterns" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$html</span>
-    </code>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$patterns</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;// filepath: &#039;, &#039;// Filepath: &#039;, &#039;# filepath: &#039;, &#039;# Filepath: &#039;, &#039;// filepath &#039;, &#039;// Filepath &#039;, &#039;# filepath &#039;, &#039;# Filepath &#039;]</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -287,61 +260,27 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
             phpdocumentor-element
             -property
             -protected
-                                                        "
+            -static                                            "
 >
-    <h4 class="phpdocumentor-element__name" id="property_output">
-        $output
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#property_output" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_torchlightKey">
+        $torchlightKey
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#property_torchlightKey" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$output</span>
-    </code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_pageData">
-        $pageData
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#property_pageData" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$pageData</span>
-     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$torchlightKey</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&lt;!-- Syntax highlighted by torchlight.dev --&gt;&#039;</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -355,93 +294,8 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Hyde-Framework-Services-BladeDownService.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">25</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pageData</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$html</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$pageData</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_get">
-        get()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_get" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">42</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">get</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
-</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -450,12 +304,12 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
 >
     <h4 class="phpdocumentor-element__name" id="method_preprocess">
         preprocess()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_preprocess" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_preprocess" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -490,56 +344,23 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
         class="phpdocumentor-element
             -method
             -public
-                                                        "
+                                    -static                    "
 >
     <h4 class="phpdocumentor-element__name" id="method_process">
         process()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_process" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_process" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">process</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">self</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                    -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_render">
-        render()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_render" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">47</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">render</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pageData</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">process</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -549,14 +370,6 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
                 <span class="phpdocumentor-signature__argument__name">$html</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$pageData</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
 
@@ -575,23 +388,23 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
         class="phpdocumentor-element
             -method
             -protected
-                                                        "
+                                    -static                    "
 >
-    <h4 class="phpdocumentor-element__name" id="method_lineStartsWithDirective">
-        lineStartsWithDirective()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_lineStartsWithDirective" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_lineMatchesPattern">
+        lineMatchesPattern()
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_lineMatchesPattern" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">lineStartsWithDirective</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$line</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">lineMatchesPattern</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$line</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -619,23 +432,179 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
         class="phpdocumentor-element
             -method
             -protected
-                                                        "
+                                    -static                    "
 >
-    <h4 class="phpdocumentor-element__name" id="method_processLine">
-        processLine()
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#method_processLine" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_resolveCodeLine">
+        resolveCodeLine()
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_resolveCodeLine" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/BladeDownService.php"><a href="files/framework-src-services-bladedownservice.html"><abbr title="framework/src/Services/BladeDownService.php">BladeDownService.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">101</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">processLine</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$line</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">resolveCodeLine</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$label</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lines</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$label</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lines</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;|null</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_resolveTemplate">
+        resolveTemplate()
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_resolveTemplate" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">85</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">resolveTemplate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$line</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$line</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_resolveTorchlightCodeLine">
+        resolveTorchlightCodeLine()
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_resolveTorchlightCodeLine" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">92</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">resolveTorchlightCodeLine</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$label</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lines</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$label</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lines</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|array&lt;string|int, mixed&gt;</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_trimHydeDirective">
+        trimHydeDirective()
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#method_trimHydeDirective" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php"><a href="files/framework-src-services-markdown-codeblockfilepathprocessor.html"><abbr title="framework/src/Services/Markdown/CodeblockFilepathProcessor.php">CodeblockFilepathProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">78</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">trimHydeDirective</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$line</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -737,7 +706,7 @@ The preprocessor expands the directive to an HTML comment. The post-processor pa
 </section>
             </div>
         </div>
-        <a href="classes/Hyde-Framework-Services-BladeDownService.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Hyde-Framework-Services-Markdown-CodeblockFilepathProcessor.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
