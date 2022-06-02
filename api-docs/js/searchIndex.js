@@ -926,6 +926,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-Commands-AsksToRebuildSite.html#method_askToRebuildSite"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\FacadeHelpers\\HydeSmartDocsFacade",
+            "name": "HydeSmartDocsFacade",
+            "summary": "Provide\u0020static\u0020facade\u0020methods,\u0020and\u0020instance\u0020helpers\u0020for\u0020HydeSmartDocs.",
+            "url": "classes/Hyde-Framework-Concerns-FacadeHelpers-HydeSmartDocsFacade.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\FacadeHelpers\\HydeSmartDocsFacade\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-FacadeHelpers-HydeSmartDocsFacade.html#method_create"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\FacadeHelpers\\HydeSmartDocsFacade\u003A\u003AhasTorchlight\u0028\u0029",
+            "name": "hasTorchlight",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-FacadeHelpers-HydeSmartDocsFacade.html#method_hasTorchlight"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\FacadeHelpers\\HydeSmartDocsFacade\u003A\u003AcanRenderSourceLink\u0028\u0029",
+            "name": "canRenderSourceLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-FacadeHelpers-HydeSmartDocsFacade.html#method_canRenderSourceLink"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\GeneratesPageMetadata",
             "name": "GeneratesPageMetadata",
             "summary": "Generates\u0020metadata\u0020for\u0020page\u0020models\u0020that\u0020have\u0020front\u0020matter.",
@@ -1300,6 +1320,11 @@ Search.appendIndex(
             "name": "canEnablePermalinks",
             "summary": "",
             "url": "classes/Hyde-Framework-Concerns-Markdown-HasConfigurableMarkdownFeatures.html#method_canEnablePermalinks"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Markdown\\HasConfigurableMarkdownFeatures\u003A\u003AisDocumentationPage\u0028\u0029",
+            "name": "isDocumentationPage",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Concerns-Markdown-HasConfigurableMarkdownFeatures.html#method_isDocumentationPage"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Markdown\\HasConfigurableMarkdownFeatures\u003A\u003AcanEnableTorchlight\u0028\u0029",
             "name": "canEnableTorchlight",
@@ -2496,6 +2521,76 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Services-FileCacheService.html#method_unixsumFile"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs",
+            "name": "HydeSmartDocs",
+            "summary": "Class\u0020to\u0020make\u0020Hyde\u0020documentation\u0020pages\u0020smarter,\nby\u0020dynamically\u0020enriching\u0020them\u0020with\u0020semantic\u0020HTML.",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method___construct"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003ArenderHeader\u0028\u0029",
+            "name": "renderHeader",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_renderHeader"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003ArenderBody\u0028\u0029",
+            "name": "renderBody",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_renderBody"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003ArenderFooter\u0028\u0029",
+            "name": "renderFooter",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_renderFooter"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003Atokenize\u0028\u0029",
+            "name": "tokenize",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_tokenize"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003AaddDynamicHeaderContent\u0028\u0029",
+            "name": "addDynamicHeaderContent",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_addDynamicHeaderContent"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003AaddDynamicFooterContent\u0028\u0029",
+            "name": "addDynamicFooterContent",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_addDynamicFooterContent"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003ArenderSourceLink\u0028\u0029",
+            "name": "renderSourceLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#method_renderSourceLink"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003A\u0024page",
+            "name": "page",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#property_page"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003A\u0024html",
+            "name": "html",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#property_html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003A\u0024header",
+            "name": "header",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#property_header"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003A\u0024body",
+            "name": "body",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#property_body"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Services\\HydeSmartDocs\u003A\u003A\u0024footer",
+            "name": "footer",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Services-HydeSmartDocs.html#property_footer"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Services\\Markdown\\BladeDownProcessor",
             "name": "BladeDownProcessor",
             "summary": "Markdown\u0020Processor\u0020to\u0020render\u0020Laravel\u0020Blade\u0020within\u0020Markdown\u0020files.",
@@ -3055,6 +3150,11 @@ Search.appendIndex(
             "name": "Commands",
             "summary": "",
             "url": "namespaces/hyde-framework-concerns-commands.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\FacadeHelpers",
+            "name": "FacadeHelpers",
+            "summary": "",
+            "url": "namespaces/hyde-framework-concerns-facadehelpers.html"
         },                {
             "fqsen": "\\Hyde\\Framework\\Concerns",
             "name": "Concerns",
