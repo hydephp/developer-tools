@@ -851,11 +851,6 @@ Search.appendIndex(
             "summary": "Execute\u0020the\u0020console\u0020command.",
             "url": "classes/Hyde-Framework-Commands-HydeServeCommand.html#method_handle"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Commands\\HydeServeCommand\u003A\u003AcanRunServer\u0028\u0029",
-            "name": "canRunServer",
-            "summary": "Check\u0020if\u0020the\u0020server\u0020can\u0020be\u0020started.",
-            "url": "classes/Hyde-Framework-Commands-HydeServeCommand.html#method_canRunServer"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeServeCommand\u003A\u003A\u0024signature",
             "name": "signature",
             "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
