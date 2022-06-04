@@ -541,6 +541,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_runNodeCommand"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003AcanGenerateSitemap\u0028\u0029",
+            "name": "canGenerateSitemap",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_canGenerateSitemap"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003AcanGenerateFeed\u0028\u0029",
+            "name": "canGenerateFeed",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_canGenerateFeed"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003AcanGenerateSearch\u0028\u0029",
+            "name": "canGenerateSearch",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Commands-HydeBuildStaticSiteCommand.html#method_canGenerateSearch"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Commands\\HydeBuildStaticSiteCommand\u003A\u003A\u0024signature",
             "name": "signature",
             "summary": "The\u0020signature\u0020of\u0020the\u0020command.",
