@@ -1411,6 +1411,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Contracts-AbstractPage.html#method_getCurrentPagePath"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\AbstractPage\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "Get\u0020a\u0020collection\u0020of\u0020all\u0020pages,\u0020parsed\u0020into\u0020page\u0020models.",
+            "url": "classes/Hyde-Framework-Contracts-AbstractPage.html#method_all"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\AbstractPage\u003A\u003A\u0024sourceDirectory",
             "name": "sourceDirectory",
             "summary": "",
@@ -1550,6 +1555,16 @@ Search.appendIndex(
             "name": "resolve",
             "summary": "",
             "url": "classes/Hyde-Framework-Contracts-MarkdownShortcodeContract.html#method_resolve"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\PageContract",
+            "name": "PageContract",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Contracts-PageContract.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Contracts\\PageContract\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "Get\u0020a\u0020collection\u0020of\u0020all\u0020pages,\u0020parsed\u0020into\u0020page\u0020models.",
+            "url": "classes/Hyde-Framework-Contracts-PageContract.html#method_all"
         },                {
             "fqsen": "\\Hyde\\Framework\\Contracts\\PageParserContract",
             "name": "PageParserContract",
@@ -2220,6 +2235,11 @@ Search.appendIndex(
             "name": "getPostDescription",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method_getPostDescription"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003AgetLatestPosts\u0028\u0029",
+            "name": "getLatestPosts",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-MarkdownPost.html#method_getLatestPosts"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\MarkdownPost\u003A\u003A\u0024category",
             "name": "category",
