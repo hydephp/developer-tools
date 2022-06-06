@@ -1246,6 +1246,11 @@ Search.appendIndex(
             "summary": "Inject\u0020the\u0020proper\u0020number\u0020of\u0020\u0060..\/\u0060\u0020before\u0020the\u0020links\u0020in\u0020Blade\u0020templates.",
             "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_relativeLink"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003Aimage\u0028\u0029",
+            "name": "image",
+            "summary": "Gets\u0020a\u0020relative\u0020link\u0020to\u0020the\u0020given\u0020image\u0020stored\u0020in\u0020the\u0020_site\/media\u0020folder.",
+            "url": "classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_image"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Concerns\\Internal\\FileHelpers\u003A\u003AuriPath\u0028\u0029",
             "name": "uriPath",
             "summary": "Return\u0020a\u0020qualified\u0020URI\u0020path,\u0020if\u0020SITE_URL\u0020is\u0020set\u0020in\u0020.env,\u0020else\u0020return\u0020false.",
@@ -1746,16 +1751,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Helpers-Features.html#method_torchlight"
         },                {
-            "fqsen": "\\Hyde\\Framework\\Helpers\\Image",
-            "name": "Image",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Helpers-Image.html"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Helpers\\Image\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Helpers-Image.html#method_get"
-        },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Markdown",
             "name": "Markdown",
             "summary": "General\u0020interface\u0020for\u0020Markdown\u0020services.",
@@ -2085,6 +2080,11 @@ Search.appendIndex(
             "name": "getSource",
             "summary": "",
             "url": "classes/Hyde-Framework-Models-Image.html#method_getSource"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Models\\Image\u003A\u003AgetLink\u0028\u0029",
+            "name": "getLink",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Models-Image.html#method_getLink"
         },                {
             "fqsen": "\\Hyde\\Framework\\Models\\Image\u003A\u003AgetContentLength\u0028\u0029",
             "name": "getContentLength",

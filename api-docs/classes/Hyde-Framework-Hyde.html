@@ -273,6 +273,13 @@
 <dd>Get the absolute path to the compiled site directory, or a file within it.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_image">image()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Gets a relative link to the given image stored in the _site/media folder.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_pageLink">pageLink()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -448,7 +455,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/Internal/FileHelpers.php"><a href="files/framework-src-concerns-internal-filehelpers.html"><abbr title="framework/src/Concerns/Internal/FileHelpers.php">FileHelpers.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 
     </aside>
 
@@ -987,6 +994,58 @@ The configuration option has been renamed.</p>
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_image">
+        image()
+        <a href="classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_image" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/Internal/FileHelpers.php"><a href="files/framework-src-concerns-internal-filehelpers.html"><abbr title="framework/src/Concerns/Internal/FileHelpers.php">FileHelpers.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Gets a relative link to the given image stored in the _site/media folder.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">image</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$current</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$current</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_pageLink">
         pageLink()
         <a href="classes/Hyde-Framework-Concerns-Internal-FileHelpers.html#method_pageLink" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1170,7 +1229,7 @@ relative to the project root directory when supplying the path argument.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>the current URI path relative to the same root</p>
+                    <section class="phpdocumentor-description"><p>the current URI path relative to the site root</p>
 </section>
 
             </dd>
@@ -1365,7 +1424,7 @@ relative to the project root directory when supplying the path argument.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="framework/src/Concerns/Internal/FileHelpers.php"><a href="files/framework-src-concerns-internal-filehelpers.html"><abbr title="framework/src/Concerns/Internal/FileHelpers.php">FileHelpers.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
+    <span class="phpdocumentor-element-found-in__line">142</span>
 
     </aside>
 
