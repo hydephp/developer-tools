@@ -1751,6 +1751,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Helpers-Features.html#method_torchlight"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\HydeHelperFacade",
+            "name": "HydeHelperFacade",
+            "summary": "Provides\u0020convenient\u0020access\u0020to\u0020Hyde\u0020helpers,\u0020through\u0020the\u0020main\u0020Hyde\u0020facade.",
+            "url": "classes/Hyde-Framework-Helpers-HydeHelperFacade.html"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\HydeHelperFacade\u003A\u003Afeatures\u0028\u0029",
+            "name": "features",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-HydeHelperFacade.html#method_features"
+        },                {
+            "fqsen": "\\Hyde\\Framework\\Helpers\\HydeHelperFacade\u003A\u003AhasFeature\u0028\u0029",
+            "name": "hasFeature",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Helpers-HydeHelperFacade.html#method_hasFeature"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Helpers\\Markdown",
             "name": "Markdown",
             "summary": "General\u0020interface\u0020for\u0020Markdown\u0020services.",
@@ -1820,16 +1835,6 @@ Search.appendIndex(
             "name": "getLatestPosts",
             "summary": "",
             "url": "classes/Hyde-Framework-Hyde.html#method_getLatestPosts"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003Afeatures\u0028\u0029",
-            "name": "features",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Hyde.html#method_features"
-        },                {
-            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003AhasFeature\u0028\u0029",
-            "name": "hasFeature",
-            "summary": "",
-            "url": "classes/Hyde-Framework-Hyde.html#method_hasFeature"
         },                {
             "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003A\u0024basePath",
             "name": "basePath",
