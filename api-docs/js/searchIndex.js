@@ -1826,6 +1826,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Hyde-Framework-Hyde.html#method_features"
         },                {
+            "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003AhasFeature\u0028\u0029",
+            "name": "hasFeature",
+            "summary": "",
+            "url": "classes/Hyde-Framework-Hyde.html#method_hasFeature"
+        },                {
             "fqsen": "\\Hyde\\Framework\\Hyde\u003A\u003A\u0024basePath",
             "name": "basePath",
             "summary": "",
